@@ -108,8 +108,16 @@ for (const enemy of creatures) {
     // Para em 1x: ignora alvos com desvantagem (< 1x)
     if (!bestAttack || bestMult < 1) continue;
 
+    // Dano recebido pelo jogador contra tipos do inimigo
+    const defMult1 = getMultiplier(enemy.type1, myPoke.type1, myPoke.type2);
+    const defMult2 = enemy.type2 ? getMultiplier(enemy.type2, myPoke.type1, myPoke.type2) : 0;
+    const incomingMult = Math.max(defMult1, defMult2);
+
     const timeToKill = enemy.baseHp / bestEffDmg;
-    const score = enemy.experience / timeToKill;
+    const rawScore = enemy.experience / timeToKill;
+    // Penaliza alvos que causam 2x ou 4x em você; bonifica se você resiste (0.5x ou 0x)
+    const defenseFactor = Math.max(0.5, incomingMult);
+    const score = rawScore / defenseFactor;
 
     targets.push({
       name: enemy.name,
@@ -120,6 +128,7 @@ for (const enemy of creatures) {
       attackName: bestAttack.name,
       attackType: bestAttack.type,
       mult: bestMult,
+      incomingMult: incomingMult,
       score: score
     });
   } else {
@@ -134,12 +143,13 @@ for (const enemy of creatures) {
       attackName: '-',
       attackType: '-',
       mult: null,
+      incomingMult: null,
       score: score
     });
   }
 }
 
-// Ordenação: 4x > 2x > 1x (depois por eficiência)
+// Ordenação: 4x > 2x > 1x (depois por eficiência ajustada com dano recebido)
 targets.sort((a, b) => {
   if (myPoke && b.mult !== a.mult) {
     return b.mult - a.mult;
@@ -153,7 +163,7 @@ if (myPoke) {
   console.log(`Skills desbloqueadas até o Nível ${level}:`);
   unlockedAttacks.forEach(a => console.log(`  - [Lv. ${a.learnLevel}] ${a.name} (${a.type}, Poder ${a.power}, ${a.category})`));
 }
-console.log(`\nFaixa de Hunt Level: até ${maxHl}\n`);
+console.log(`\nFaixa de Hunt Level: até ${maxHl} (Ordenado por Dano Causado & Menor Risco Recebido)\n`);
 
 const top = targets.slice(0, 15);
 if (top.length === 0) {
@@ -166,7 +176,11 @@ if (top.length === 0) {
     "Hunt Lvl": t.huntLevel,
     HP: t.hp,
     XP: t.xp,
-    ...(t.mult !== null ? { Habilidade: `${t.attackName} (${t.attackType})`, Vantagem: `${t.mult}x` } : {}),
+    ...(t.mult !== null ? {
+      Habilidade: `${t.attackName} (${t.attackType})`,
+      Causa: `${t.mult}x`,
+      Recebe: `${t.incomingMult}x`
+    } : {}),
     Eficiência: Math.round(t.score)
   })));
 }

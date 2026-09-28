@@ -707,7 +707,8 @@
                         <th id="thDefesa">Defesa Alvo</th>
                         <th id="thSkill">Habilidade Usada</th>
                         <th>XP Bruto</th>
-                        <th id="thVantagem">Vantagem</th>
+                        <th id="thVantagem">Você Causa</th>
+                        <th id="thRecebe">Você Recebe</th>
                         <th style="text-align: right;">Eficiência</th>
                     </tr>
                 </thead>
@@ -716,7 +717,7 @@
         </div>
 
         <div class="info-card">
-            💡 <strong>Entendendo a Eficiência:</strong> O sistema simula o dano real do seu Pokémon contra a defesa do monstro, prevê o tempo de abate e divide pelo XP. Quanto maior o multiplicador (<strong>4x &gt; 2x &gt; 1x</strong>) e mais rápido o monstro cair, maior a nota de retorno por hora.
+            💡 <strong>Lógica de Eficiência Balanceada:</strong> Além do dano que você causa (<strong>4x &gt; 2x &gt; 1x</strong>), o ranking agora considera o <strong>dano que você recebe</strong> do monstro. Monstros dos quais você é resistente ou imune recebem bônus na nota, enquanto monstros que causam 2x ou 4x em você são penalizados por risco de sobrevivência.
         </div>
     </div>
 </div>
@@ -842,6 +843,17 @@
         return `<span class="mult-pill mult-1x">1x DANO</span>`;
     }
 
+    function renderIncomingPill(mult) {
+        if (mult === null || mult === undefined) return '';
+        if (mult >= 4) return `<span class="mult-pill" style="background:rgba(239,68,68,0.25); border:1px solid #ef4444; color:#fca5a5;">4x PERIGO</span>`;
+        if (mult >= 2) return `<span class="mult-pill" style="background:rgba(249,115,22,0.2); border:1px solid #f97316; color:#fdba74;">2x DANO</span>`;
+        if (mult === 1) return `<span class="mult-pill mult-1x">1x NEUTRO</span>`;
+        if (mult === 0.5) return `<span class="mult-pill" style="background:rgba(16,185,129,0.2); border:1px solid #10b981; color:#6ee7b7;">0.5x RESISTE</span>`;
+        if (mult > 0 && mult < 0.5) return `<span class="mult-pill" style="background:rgba(6,182,212,0.2); border:1px solid #06b6d4; color:#67e8f9;">0.25x RESISTE</span>`;
+        if (mult === 0) return `<span class="mult-pill" style="background:rgba(59,130,246,0.2); border:1px solid #3b82f6; color:#93c5fd;">0x IMUNE</span>`;
+        return `<span class="mult-pill mult-1x">${mult}x</span>`;
+    }
+
     function updateActivePokeBanner(poke, level) {
         const banner = document.getElementById('activePokeBanner');
         if (!poke) {
@@ -963,8 +975,16 @@
                 if (advFilter === 'effective' && bestMult < 1) continue;
                 if (advFilter === 'super' && bestMult < 2) continue;
 
+                // Dano recebido pelo jogador contra tipos do monstro
+                const defMult1 = getMultiplier(enemy.type1, myPoke.type1, myPoke.type2);
+                const defMult2 = enemy.type2 ? getMultiplier(enemy.type2, myPoke.type1, myPoke.type2) : 0;
+                const incomingMult = Math.max(defMult1, defMult2);
+
                 const ttk = enemy.baseHp / bestEffDmg;
-                const score = enemy.experience / ttk;
+                const rawScore = enemy.experience / ttk;
+                // Penaliza inimigos que dão 2x/4x em você; bonifica se você resiste
+                const defenseFactor = Math.max(0.5, incomingMult);
+                const score = rawScore / defenseFactor;
 
                 results.push({
                     pokeId: enemy.pokeId,
@@ -980,6 +1000,7 @@
                     attackPower: bestAttack.power,
                     xp: enemy.experience,
                     mult: bestMult,
+                    incomingMult: incomingMult,
                     score: score
                 });
             } else {
@@ -998,12 +1019,13 @@
                     attackPower: null,
                     xp: enemy.experience,
                     mult: null,
+                    incomingMult: null,
                     score: score
                 });
             }
         }
 
-        // Ordenação estrita: 4x > 2x > 1x -> maior Eficiência
+        // Ordenação estrita: 4x > 2x > 1x -> maior Eficiência (ajustada por dano recebido)
         results.sort((a, b) => {
             if (myPoke && b.mult !== a.mult) {
                 return b.mult - a.mult;
@@ -1015,6 +1037,7 @@
         const podiumGrid = document.getElementById('podiumGrid');
         const tbody = document.querySelector('#resultsTable tbody');
         const thVantagem = document.getElementById('thVantagem');
+        const thRecebe = document.getElementById('thRecebe');
         const thDefesa = document.getElementById('thDefesa');
         const thSkill = document.getElementById('thSkill');
 
@@ -1029,6 +1052,7 @@
         }
 
         thVantagem.style.display = myPoke ? '' : 'none';
+        if (thRecebe) thRecebe.style.display = myPoke ? '' : 'none';
         thDefesa.style.display = myPoke ? '' : 'none';
         if (thSkill) thSkill.style.display = myPoke ? '' : 'none';
 
@@ -1069,7 +1093,11 @@
                     <span style="color:var(--text-dim)">Habilidade:</span> <strong style="color:#fff;">${r.attackName}</strong> ${renderTypePills(r.attackType)}
                 </div>` : ''}
                 <div class="podium-footer">
-                    <div>${myPoke ? renderMultiplierPill(r.mult) : '<span style="font-size:12px; color:var(--text-dim)">Sem Pokémon</span>'}</div>
+                    ${myPoke ? `
+                    <div style="display:flex; flex-direction:column; gap:4px;">
+                        <div><span style="font-size:9px; color:var(--text-dim); display:block;">VOCÊ CAUSA</span> ${renderMultiplierPill(r.mult)}</div>
+                        <div><span style="font-size:9px; color:var(--text-dim); display:block;">VOCÊ RECEBE</span> ${renderIncomingPill(r.incomingMult)}</div>
+                    </div>` : '<span style="font-size:12px; color:var(--text-dim)">Sem Pokémon</span>'}
                     <div class="score-box">${Math.round(r.score)} <span style="font-size:10px; color:var(--text-dim)">PTS</span></div>
                 </div>
             `;
@@ -1098,6 +1126,7 @@
                 ${myPoke ? `<td><strong style="color:#fff;">${r.attackName}</strong> ${renderTypePills(r.attackType)}</td>` : ''}
                 <td class="xp-val">${r.xp.toLocaleString()}</td>
                 ${myPoke ? `<td>${renderMultiplierPill(r.mult)}</td>` : ''}
+                ${myPoke ? `<td>${renderIncomingPill(r.incomingMult)}</td>` : ''}
                 <td style="text-align: right; font-weight: 700; color: #38bdf8; font-family: monospace;">${Math.round(r.score)}</td>
             `;
             tbody.appendChild(tr);
