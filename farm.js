@@ -70,8 +70,14 @@ if (myPokeName) {
   }
 }
 
-// Considera todos os alvos liberados até o nível do jogador (huntLevel <= level)
 const maxHl = level;
+let unlockedAttacks = [];
+if (myPoke) {
+  unlockedAttacks = (myPoke.attacks || []).filter(a => a.learnLevel <= level);
+  if (unlockedAttacks.length === 0 && myPoke.attacks && myPoke.attacks.length > 0) {
+    unlockedAttacks = [[...myPoke.attacks].sort((a, b) => a.learnLevel - b.learnLevel)[0]];
+  }
+}
 
 const targets = [];
 
@@ -80,19 +86,29 @@ for (const enemy of creatures) {
   if (enemy.huntLevel > maxHl) continue;
 
   if (myPoke) {
-    const isPhysical = myPoke.baseAtk > myPoke.baseSpAtk;
-    const myDamageStat = isPhysical ? myPoke.baseAtk : myPoke.baseSpAtk;
-    const enemyDef = isPhysical ? enemy.baseDef : enemy.baseSpDef;
+    let bestMult = 0;
+    let bestAttack = null;
+    let bestEffDmg = 0;
 
-    const mult1 = getMultiplier(myPoke.type1, enemy.type1, enemy.type2);
-    const mult2 = myPoke.type2 ? getMultiplier(myPoke.type2, enemy.type1, enemy.type2) : 0;
-    const bestMult = Math.max(mult1, mult2);
+    for (const atk of unlockedAttacks) {
+      const mult = getMultiplier(atk.type, enemy.type1, enemy.type2);
+      const isPhysical = atk.category === 'PHYSICAL';
+      const stat = isPhysical ? myPoke.baseAtk : myPoke.baseSpAtk;
+      const def = isPhysical ? enemy.baseDef : enemy.baseSpDef;
+      const stab = (atk.type === myPoke.type1 || atk.type === myPoke.type2) ? 1.5 : 1.0;
+      const effDmg = (stat * ((atk.power || 40) / 50) * mult * stab * 10) / (def || 1);
+
+      if (mult > bestMult || (mult === bestMult && effDmg > bestEffDmg)) {
+        bestMult = mult;
+        bestAttack = atk;
+        bestEffDmg = effDmg;
+      }
+    }
 
     // Para em 1x: ignora alvos com desvantagem (< 1x)
-    if (bestMult < 1) continue;
+    if (!bestAttack || bestMult < 1) continue;
 
-    const effectiveDamage = (myDamageStat * bestMult * 10) / (enemyDef || 1);
-    const timeToKill = enemy.baseHp / effectiveDamage;
+    const timeToKill = enemy.baseHp / bestEffDmg;
     const score = enemy.experience / timeToKill;
 
     targets.push({
@@ -101,6 +117,8 @@ for (const enemy of creatures) {
       huntLevel: enemy.huntLevel,
       hp: enemy.baseHp,
       xp: enemy.experience,
+      attackName: bestAttack.name,
+      attackType: bestAttack.type,
       mult: bestMult,
       score: score
     });
@@ -113,6 +131,8 @@ for (const enemy of creatures) {
       huntLevel: enemy.huntLevel,
       hp: enemy.baseHp,
       xp: enemy.experience,
+      attackName: '-',
+      attackType: '-',
       mult: null,
       score: score
     });
@@ -130,8 +150,10 @@ targets.sort((a, b) => {
 console.log(`\n=== MELHORES ALVOS PARA FARMAR NO NÍVEL ${level} ===`);
 if (myPoke) {
   console.log(`Seu Pokémon: ${myPoke.name} (${[myPoke.type1, myPoke.type2].filter(Boolean).join('/')}) - Atk: ${myPoke.baseAtk} | SpAtk: ${myPoke.baseSpAtk}`);
+  console.log(`Skills desbloqueadas até o Nível ${level}:`);
+  unlockedAttacks.forEach(a => console.log(`  - [Lv. ${a.learnLevel}] ${a.name} (${a.type}, Poder ${a.power}, ${a.category})`));
 }
-console.log(`Faixa de Hunt Level: até ${maxHl}\n`);
+console.log(`\nFaixa de Hunt Level: até ${maxHl}\n`);
 
 const top = targets.slice(0, 15);
 if (top.length === 0) {
@@ -144,7 +166,7 @@ if (top.length === 0) {
     "Hunt Lvl": t.huntLevel,
     HP: t.hp,
     XP: t.xp,
-    ...(t.mult !== null ? { Vantagem: `${t.mult}x` } : {}),
+    ...(t.mult !== null ? { Habilidade: `${t.attackName} (${t.attackType})`, Vantagem: `${t.mult}x` } : {}),
     Eficiência: Math.round(t.score)
   })));
 }
