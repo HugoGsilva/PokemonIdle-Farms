@@ -704,6 +704,7 @@
                         <th>Pokémon Alvo</th>
                         <th>Hunt Level</th>
                         <th>HP</th>
+                        <th id="thDefesa">Defesa Alvo</th>
                         <th>XP Bruto</th>
                         <th id="thVantagem">Vantagem</th>
                         <th style="text-align: right;">Eficiência</th>
@@ -930,6 +931,8 @@
                     type2: enemy.type2,
                     huntLevel: enemy.huntLevel,
                     hp: enemy.baseHp,
+                    def: enemyDef,
+                    isPhysical: isPhysical,
                     xp: enemy.experience,
                     mult: bestMult,
                     score: score
@@ -943,6 +946,8 @@
                     type2: enemy.type2,
                     huntLevel: enemy.huntLevel,
                     hp: enemy.baseHp,
+                    def: null,
+                    isPhysical: null,
                     xp: enemy.experience,
                     mult: null,
                     score: score
@@ -962,6 +967,7 @@
         const podiumGrid = document.getElementById('podiumGrid');
         const tbody = document.querySelector('#resultsTable tbody');
         const thVantagem = document.getElementById('thVantagem');
+        const thDefesa = document.getElementById('thDefesa');
 
         tbody.innerHTML = '';
         podiumGrid.innerHTML = '';
@@ -974,6 +980,7 @@
         }
 
         thVantagem.style.display = myPoke ? '' : 'none';
+        thDefesa.style.display = myPoke ? '' : 'none';
 
         // Render Top 3 Podium
         const top3 = results.slice(0, 3);
@@ -997,6 +1004,11 @@
                         <span class="podium-stat-label">HP Base</span>
                         <span class="podium-stat-value">${r.hp}</span>
                     </div>
+                    ${myPoke ? `
+                    <div class="podium-stat-item">
+                        <span class="podium-stat-label">Defesa ${r.isPhysical ? 'Física' : 'Especial'}</span>
+                        <span class="podium-stat-value">${r.def}</span>
+                    </div>` : ''}
                     <div class="podium-stat-item">
                         <span class="podium-stat-label">XP Bruto</span>
                         <span class="podium-stat-value" style="color:var(--gold-light);">${r.xp.toLocaleString()}</span>
@@ -1028,6 +1040,7 @@
                 </td>
                 <td><strong style="color:#fff;">${r.huntLevel}</strong></td>
                 <td>${r.hp}</td>
+                ${myPoke ? `<td style="color:var(--text-muted); font-family:monospace;">${r.def} <span style="font-size:10px; color:var(--text-dim)">(${r.isPhysical ? 'FÍS' : 'ESP'})</span></td>` : ''}
                 <td class="xp-val">${r.xp.toLocaleString()}</td>
                 ${myPoke ? `<td>${renderMultiplierPill(r.mult)}</td>` : ''}
                 <td style="text-align: right; font-weight: 700; color: #38bdf8; font-family: monospace;">${Math.round(r.score)}</td>
