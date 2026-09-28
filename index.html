@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Idle World &mdash; Calculadora de Farm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <script src="creatures.data.js"></script>
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --surface: #111827;
+            --surface-hover: #162033;
+            --surface-card: rgba(17, 24, 39, 0.75);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-highlight: rgba(245, 158, 11, 0.35);
+            --gold: #f59e0b;
+            --gold-light: #fbbf24;
+            --gold-glow: rgba(245, 158, 11, 0.2);
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+            --badge-4x: #f43f5e;
+            --badge-2x: #10b981;
+            --badge-1x: #64748b;
+            --accent-cyan: #06b6d4;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            background-image: 
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245, 158, 11, 0.12), transparent),
+                radial-gradient(circle at 100% 100%, rgba(6, 182, 212, 0.06), transparent 50%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 32px 16px 64px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1060px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 28px;
+            position: relative;
+        }
+
+        .brand-subtitle {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-subtitle::before, .brand-subtitle::after {
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 1px;
+            background: var(--gold);
+            opacity: 0.5;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: #fff;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.8);
+            margin-bottom: 8px;
+        }
+
+        h1 span {
+            color: var(--gold-light);
+            background: linear-gradient(135deg, #fef08a, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            color: #34d399;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #10b981;
+            box-shadow: 0 0 8px #10b981;
+        }
+
+        /* Glassmorphism Panels */
+        .glass-panel {
+            background: var(--surface-card);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            transition: border-color 0.2s;
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(255, 255, 255, 0.12);
+        }
+
+        /* Form Grid */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.6fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 720px) {
+            .form-grid { grid-template-columns: 1fr; gap: 16px; }
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+        input[type="number"], input[type="text"], select {
+            width: 100%;
+            padding: 13px 16px;
+            background: #0d131f;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: #fff;
+            font-family: inherit;
+            font-size: 15px;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px var(--gold-glow);
+            background: #111a2c;
+        }
+
+        /* Suggestions chips */
+        .suggestions-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+            min-height: 24px;
+        }
+
+        .sug-chip {
+            background: rgba(245, 158, 11, 0.08);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            color: var(--gold-light);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .sug-chip:hover {
+            background: var(--gold);
+            color: #000;
+            transform: translateY(-1px);
+        }
+
+        /* Active Pokemon Banner */
+        .active-poke-banner {
+            display: none;
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(6, 182, 212, 0.05));
+            border: 1px solid var(--border-highlight);
+            border-radius: 12px;
+            padding: 14px 18px;
+            margin-bottom: 18px;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .active-poke-sprite {
+            width: 54px;
+            height: 54px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.6));
+        }
+
+        .active-poke-info h3 {
+            font-size: 17px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .active-poke-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .stat-tag {
+            background: rgba(0,0,0,0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .stat-tag.highlight {
+            border-color: rgba(245, 158, 11, 0.4);
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        /* Advanced Filters Accordion */
+        details.adv-filters {
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        details.adv-filters[open] {
+            border-color: rgba(255, 255, 255, 0.15);
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        details.adv-filters summary {
+            padding: 12px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            outline: none;
+        }
+
+        details.adv-filters summary:hover {
+            color: #fff;
+        }
+
+        details.adv-filters .adv-body {
+            padding: 0 16px 16px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        @media (max-width: 600px) {
+            details.adv-filters .adv-body { grid-template-columns: 1fr; }
+        }
+
+        /* Primary Button */
+        button.btn-search {
+            width: 100%;
+            padding: 14px 24px;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #090d16;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        button.btn-search:hover {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45);
+            transform: translateY(-1px);
+        }
+
+        button.btn-search:active {
+            transform: translateY(0);
+        }
+
+        /* Feedback Alerts */
+        .alert {
+            margin-top: 14px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .alert-error {
+            background: rgba(244, 63, 94, 0.12);
+            border: 1px solid rgba(244, 63, 94, 0.3);
+            color: #fda4af;
+        }
+
+        /* Top 3 Podium Cards */
+        .podium-section {
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--gold);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .podium-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        @media (max-width: 840px) {
+            .podium-grid { grid-template-columns: 1fr; }
+        }
+
+        .podium-card {
+            background: #111a2c;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s;
+        }
+
+        .podium-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(245, 158, 11, 0.4);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+
+        .podium-card.rank-1 {
+            border-color: rgba(245, 158, 11, 0.4);
+            background: linear-gradient(180deg, rgba(245, 158, 11, 0.08), #111a2c 60%);
+        }
+
+        .card-badge-rank {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border: 1px solid var(--border);
+        }
+
+        .rank-1 .card-badge-rank {
+            background: var(--gold);
+            color: #000;
+            border: none;
+        }
+
+        .podium-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .poke-avatar {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+            padding: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .podium-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+        }
+
+        .podium-hl {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-top: 2px;
+        }
+
+        .podium-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+
+        .podium-stat-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .podium-stat-label {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .podium-stat-value {
+            font-weight: 700;
+            color: #fff;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .podium-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 8px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Type Badges */
+        .type-pill {
+            display: inline-block;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+            color: #fff;
+            margin-right: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+        }
+
+        /* Multiplier Badges */
+        .mult-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 800;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .mult-4x {
+            background: linear-gradient(135deg, rgba(244, 63, 94, 0.25), rgba(225, 29, 72, 0.4));
+            border: 1px solid var(--badge-4x);
+            color: #fda4af;
+        }
+
+        .mult-2x {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.35));
+            border: 1px solid var(--badge-2x);
+            color: #6ee7b7;
+        }
+
+        .mult-1x {
+            background: rgba(100, 116, 139, 0.2);
+            border: 1px solid var(--badge-1x);
+            color: #cbd5e1;
+        }
+
+        /* Score Meter */
+        .score-box {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 15px;
+            font-weight: 700;
+            color: #38bdf8;
+            text-align: right;
+        }
+
+        /* Table View */
+        .table-responsive {
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        table.farm-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        table.farm-table th {
+            background: #0d1424;
+            color: var(--text-muted);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border);
+            white-space: nowrap;
+        }
+
+        table.farm-table td {
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+        table.farm-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        table.farm-table tbody tr {
+            transition: background-color 0.15s;
+        }
+
+        table.farm-table tbody tr:hover {
+            background-color: var(--surface-hover);
+        }
+
+        .col-poke {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .table-sprite {
+            width: 36px;
+            height: 36px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+        }
+
+        .xp-val {
+            color: #fbbf24;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+        }
+
+        .info-card {
+            margin-top: 18px;
+            background: rgba(6, 182, 212, 0.05);
+            border: 1px solid rgba(6, 182, 212, 0.2);
+            border-radius: 10px;
+            padding: 14px 18px;
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .info-card strong {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="brand-subtitle">Poke Idle World</div>
+        <h1>Calculadora de <span>Farm & Dano</span></h1>
+        <div class="status-pill" id="statusBadge">
+            <span class="status-dot"></span>
+            <span id="statusText">Carregando criaturas...</span>
+        </div>
+    </header>
+
+    <!-- Painel de Filtros e Busca -->
+    <div class="glass-panel">
+        <div class="form-grid">
+            <div>
+                <label for="pokemonLevel">
+                    <span>Seu Nível</span>
+                    <span style="font-size: 11px; color: var(--gold);">OBRIGATÓRIO</span>
+                </label>
+                <div class="input-group">
+                    <input type="number" id="pokemonLevel" placeholder="Ex: 138" min="1" value="138">
+                </div>
+            </div>
+
+            <div>
+                <label for="pokemonName">
+                    <span>Seu Pokémon</span>
+                    <span style="font-size: 11px; color: var(--accent-cyan);">OPCIONAL (DANO REAL)</span>
+                </label>
+                <div class="input-group">
+                    <input type="text" id="pokemonName" placeholder="Ex: Vileplume, Charizard, Blastoise..." autocomplete="off">
+                </div>
+                <div id="suggestions" class="suggestions-box"></div>
+            </div>
+        </div>
+
+        <!-- Banner com o Pokémon ativo (aparece quando selecionado) -->
+        <div class="active-poke-banner" id="activePokeBanner">
+            <img id="activePokeImg" class="active-poke-sprite" src="" alt="" onerror="this.style.display='none'">
+            <div class="active-poke-info">
+                <h3 id="activePokeTitle">Nome</h3>
+                <div id="activePokeTypes"></div>
+                <div class="active-poke-stats" id="activePokeStats"></div>
+            </div>
+        </div>
+
+        <!-- Filtros Avançados Recolhidos -->
+        <details class="adv-filters">
+            <summary>
+                <span>⚙️ Filtros Avançados (Faixa de Hunt & Vantagem)</span>
+            </summary>
+            <div class="adv-body">
+                <div>
+                    <label for="levelMargin">Faixa de Monstros:</label>
+                    <select id="levelMargin">
+                        <option value="safe" selected>Mesmo nível ou inferior (Hunt Level &le; Nível)</option>
+                        <option value="balanced">Margem (+5 níveis acima)</option>
+                        <option value="hard">Margem alta (+15 níveis acima)</option>
+                        <option value="all">Qualquer nível do jogo</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="filterAdvantage">Filtro de Vantagem:</label>
+                    <select id="filterAdvantage">
+                        <option value="effective" selected>Neutros ou Vantagem (&ge; 1x)</option>
+                        <option value="super">Apenas Super Efetivos (&ge; 2x)</option>
+                        <option value="all">Todos os alvos (inclusive desvantagem)</option>
+                    </select>
+                </div>
+            </div>
+        </details>
+
+        <button class="btn-search" onclick="calculateFarm()">Calcular Melhores Alvos</button>
+        <div id="alertBox" class="alert alert-error"></div>
+    </div>
+
+    <!-- Resultados -->
+    <div class="glass-panel" id="resultsSection" style="display: none;">
+        <!-- Top 3 Podium -->
+        <div class="podium-section" id="podiumSection">
+            <div class="section-title">🏆 Top Recomendações de Farm</div>
+            <div class="podium-grid" id="podiumGrid"></div>
+        </div>
+
+        <!-- Tabela Completa -->
+        <div class="section-title">📋 Lista Completa de Alvos</div>
+        <div class="table-responsive">
+            <table class="farm-table" id="resultsTable">
+                <thead>
+                    <tr>
+                        <th style="width: 40px;">#</th>
+                        <th>Pokémon Alvo</th>
+                        <th>Hunt Level</th>
+                        <th>HP</th>
+                        <th>XP Bruto</th>
+                        <th id="thVantagem">Vantagem</th>
+                        <th style="text-align: right;">Eficiência</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="info-card">
+            💡 <strong>Entendendo a Eficiência:</strong> O sistema simula o dano real do seu Pokémon contra a defesa do monstro, prevê o tempo de abate e divide pelo XP. Quanto maior o multiplicador (<strong>4x &gt; 2x &gt; 1x</strong>) e mais rápido o monstro cair, maior a nota de retorno por hora.
+        </div>
+    </div>
+</div>
+
+<script>
+    const TYPE_COLORS = {
+        NORMAL: '#9ca3af', FIRE: '#f97316', WATER: '#38bdf8', ELECTRIC: '#facc15',
+        GRASS: '#4ade80', ICE: '#a5f3fc', FIGHTING: '#ef4444', POISON: '#c084fc',
+        GROUND: '#ca8a04', FLYING: '#818cf8', PSYCHIC: '#f43f5e', BUG: '#a3e635',
+        ROCK: '#d97706', GHOST: '#8b5cf6', DRAGON: '#6366f1', DARK: '#475569',
+        STEEL: '#94a3b8', FAIRY: '#f472b6'
+    };
+
+    const typeEffectiveness = {
+        NORMAL: { ROCK: 0.5, GHOST: 0, STEEL: 0.5 },
+        FIRE: { FIRE: 0.5, WATER: 0.5, GRASS: 2, ICE: 2, BUG: 2, ROCK: 0.5, DRAGON: 0.5, STEEL: 2 },
+        WATER: { FIRE: 2, WATER: 0.5, GRASS: 0.5, GROUND: 2, ROCK: 2, DRAGON: 0.5 },
+        ELECTRIC: { WATER: 2, ELECTRIC: 0.5, GRASS: 0.5, GROUND: 0, FLYING: 2, DRAGON: 0.5 },
+        GRASS: { FIRE: 0.5, WATER: 2, GRASS: 0.5, POISON: 0.5, GROUND: 2, FLYING: 0.5, BUG: 0.5, ROCK: 2, DRAGON: 0.5, STEEL: 0.5 },
+        ICE: { FIRE: 0.5, WATER: 0.5, GRASS: 2, ICE: 0.5, GROUND: 2, FLYING: 2, DRAGON: 2, STEEL: 0.5 },
+        FIGHTING: { NORMAL: 2, ICE: 2, POISON: 0.5, FLYING: 0.5, PSYCHIC: 0.5, BUG: 0.5, ROCK: 2, GHOST: 0, DARK: 2, STEEL: 2, FAIRY: 0.5 },
+        POISON: { GRASS: 2, POISON: 0.5, GROUND: 0.5, ROCK: 0.5, GHOST: 0.5, STEEL: 0, FAIRY: 2 },
+        GROUND: { FIRE: 2, ELECTRIC: 2, GRASS: 0.5, POISON: 2, FLYING: 0, BUG: 0.5, ROCK: 2, STEEL: 2 },
+        FLYING: { ELECTRIC: 0.5, GRASS: 2, FIGHTING: 2, BUG: 2, ROCK: 0.5, STEEL: 0.5 },
+        PSYCHIC: { FIGHTING: 2, POISON: 2, PSYCHIC: 0.5, DARK: 0, STEEL: 0.5 },
+        BUG: { FIRE: 0.5, GRASS: 2, FIGHTING: 0.5, POISON: 0.5, FLYING: 0.5, PSYCHIC: 2, GHOST: 0.5, DARK: 2, STEEL: 0.5, FAIRY: 0.5 },
+        ROCK: { FIRE: 2, ICE: 2, FIGHTING: 0.5, GROUND: 0.5, FLYING: 2, BUG: 2, STEEL: 0.5 },
+        GHOST: { NORMAL: 0, PSYCHIC: 2, GHOST: 2, DARK: 0.5 },
+        DRAGON: { DRAGON: 2, STEEL: 0.5, FAIRY: 0 },
+        DARK: { FIGHTING: 0.5, PSYCHIC: 2, GHOST: 2, DARK: 0.5, FAIRY: 0.5 },
+        STEEL: { FIRE: 0.5, WATER: 0.5, ELECTRIC: 0.5, ICE: 2, ROCK: 2, STEEL: 0.5, FAIRY: 2 },
+        FAIRY: { FIRE: 0.5, FIGHTING: 2, POISON: 0.5, DRAGON: 2, DARK: 2, STEEL: 0.5 }
+    };
+
+    function getMultiplier(attackType, targetType1, targetType2) {
+        if (!attackType) return 1;
+        const eff1 = typeEffectiveness[attackType]?.[targetType1] ?? 1;
+        const eff2 = targetType2 ? (typeEffectiveness[attackType]?.[targetType2] ?? 1) : 1;
+        return eff1 * eff2;
+    }
+
+    function getSpriteUrl(pokeId, name) {
+        if (pokeId && pokeId > 0 && pokeId <= 1025) {
+            return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokeId}.png`;
+        }
+        return '';
+    }
+
+    let creaturesList = [];
+
+    async function init() {
+        const statusText = document.getElementById('statusText');
+        if (window.CREATURES_DATA && window.CREATURES_DATA.creatures) {
+            creaturesList = window.CREATURES_DATA.creatures;
+        } else {
+            try {
+                const res = await fetch('creatures.json');
+                const json = await res.json();
+                creaturesList = json.creatures || json;
+            } catch (err) {
+                statusText.innerText = 'Erro ao ler dados';
+                statusText.style.color = '#f87171';
+                return;
+            }
+        }
+
+        creaturesList = creaturesList.filter(c => c && c.name && c.huntLevel);
+        statusText.innerText = `${creaturesList.length} Pokémons carregados`;
+
+        // Preenche com exemplo Vileplume nível 138 e calcula
+        document.getElementById('pokemonName').value = 'Vileplume';
+        document.getElementById('pokemonLevel').value = 138;
+        calculateFarm();
+    }
+
+    // Auto-complete
+    const inputName = document.getElementById('pokemonName');
+    const sugBox = document.getElementById('suggestions');
+
+    inputName.addEventListener('input', () => {
+        const val = inputName.value.trim().toLowerCase();
+        if (!val) {
+            sugBox.innerHTML = '';
+            document.getElementById('activePokeBanner').style.display = 'none';
+            return;
+        }
+        const matches = creaturesList.filter(c => c.name.toLowerCase().includes(val)).slice(0, 6);
+        if (matches.length === 0) {
+            sugBox.innerHTML = '<span style="font-size:12px; color:var(--text-dim)">Nenhum encontrado</span>';
+            return;
+        }
+        sugBox.innerHTML = matches.map(m => 
+            `<span class="sug-chip" onclick="selectPokemon('${m.name}')">${m.name}</span>`
+        ).join('');
+    });
+
+    // Recalcula ao mudar nível
+    document.getElementById('pokemonLevel').addEventListener('change', calculateFarm);
+
+    function selectPokemon(name) {
+        inputName.value = name;
+        sugBox.innerHTML = '';
+        calculateFarm();
+    }
+
+    function renderTypePills(type1, type2) {
+        let html = '';
+        if (type1) {
+            const bg = TYPE_COLORS[type1.toUpperCase()] || '#64748b';
+            html += `<span class="type-pill" style="background:${bg}">${type1}</span>`;
+        }
+        if (type2) {
+            const bg = TYPE_COLORS[type2.toUpperCase()] || '#64748b';
+            html += `<span class="type-pill" style="background:${bg}">${type2}</span>`;
+        }
+        return html;
+    }
+
+    function renderMultiplierPill(mult) {
+        if (!mult) return '';
+        if (mult >= 4) return `<span class="mult-pill mult-4x">4x DANO</span>`;
+        if (mult >= 2) return `<span class="mult-pill mult-2x">2x DANO</span>`;
+        return `<span class="mult-pill mult-1x">1x DANO</span>`;
+    }
+
+    function updateActivePokeBanner(poke) {
+        const banner = document.getElementById('activePokeBanner');
+        if (!poke) {
+            banner.style.display = 'none';
+            return;
+        }
+
+        const isPhysical = poke.baseAtk > poke.baseSpAtk;
+        const img = document.getElementById('activePokeImg');
+        const sprite = getSpriteUrl(poke.pokeId, poke.name);
+        if (sprite) {
+            img.src = sprite;
+            img.style.display = 'block';
+        } else {
+            img.style.display = 'none';
+        }
+
+        document.getElementById('activePokeTitle').innerHTML = `${poke.name} <span style="font-size:12px; font-weight:normal; color:var(--text-dim); font-family:monospace;">#${poke.pokeId || ''}</span>`;
+        document.getElementById('activePokeTypes').innerHTML = renderTypePills(poke.type1, poke.type2);
+        
+        document.getElementById('activePokeStats').innerHTML = `
+            <span class="stat-tag">HP: ${poke.baseHp}</span>
+            <span class="stat-tag ${isPhysical ? 'highlight' : ''}">ATK: ${poke.baseAtk} ${isPhysical ? '★' : ''}</span>
+            <span class="stat-tag ${!isPhysical ? 'highlight' : ''}">SP.ATK: ${poke.baseSpAtk} ${!isPhysical ? '★' : ''}</span>
+            <span class="stat-tag">DEF: ${poke.baseDef}</span>
+            <span class="stat-tag">SP.DEF: ${poke.baseSpDef}</span>
+        `;
+        banner.style.display = 'flex';
+    }
+
+    function calculateFarm() {
+        const alertBox = document.getElementById('alertBox');
+        alertBox.style.display = 'none';
+
+        const level = parseInt(document.getElementById('pokemonLevel').value, 10);
+        if (isNaN(level) || level <= 0) {
+            alertBox.innerText = 'Por favor, informe um nível válido.';
+            alertBox.style.display = 'block';
+            return;
+        }
+
+        const marginMode = document.getElementById('levelMargin').value;
+        let maxHl = level;
+        if (marginMode === 'balanced') maxHl = level + 5;
+        else if (marginMode === 'hard') maxHl = level + 15;
+        else if (marginMode === 'all') maxHl = 3000;
+
+        const myPokeName = inputName.value.trim().toLowerCase();
+        let myPoke = null;
+        if (myPokeName) {
+            myPoke = creaturesList.find(c => c.name.toLowerCase() === myPokeName);
+            if (!myPoke) {
+                alertBox.innerText = `Pokémon "${inputName.value}" não encontrado.`;
+                alertBox.style.display = 'block';
+                return;
+            }
+        }
+
+        updateActivePokeBanner(myPoke);
+
+        const advFilter = document.getElementById('filterAdvantage').value;
+        const results = [];
+
+        for (const enemy of creaturesList) {
+            if (!enemy.huntLevel || enemy.experience <= 0) continue;
+            if (enemy.huntLevel > maxHl) continue;
+
+            if (myPoke) {
+                const isPhysical = myPoke.baseAtk > myPoke.baseSpAtk;
+                const myDmg = isPhysical ? myPoke.baseAtk : myPoke.baseSpAtk;
+                const enemyDef = isPhysical ? enemy.baseDef : enemy.baseSpDef;
+
+                const m1 = getMultiplier(myPoke.type1, enemy.type1, enemy.type2);
+                const m2 = myPoke.type2 ? getMultiplier(myPoke.type2, enemy.type1, enemy.type2) : 0;
+                const bestMult = Math.max(m1, m2);
+
+                if (advFilter === 'effective' && bestMult < 1) continue;
+                if (advFilter === 'super' && bestMult < 2) continue;
+
+                const effDmg = (myDmg * bestMult * 10) / (enemyDef || 1);
+                const ttk = enemy.baseHp / effDmg;
+                const score = enemy.experience / ttk;
+
+                results.push({
+                    pokeId: enemy.pokeId,
+                    name: enemy.name,
+                    type1: enemy.type1,
+                    type2: enemy.type2,
+                    huntLevel: enemy.huntLevel,
+                    hp: enemy.baseHp,
+                    xp: enemy.experience,
+                    mult: bestMult,
+                    score: score
+                });
+            } else {
+                const score = (enemy.experience * 10) / (enemy.baseHp || 1);
+                results.push({
+                    pokeId: enemy.pokeId,
+                    name: enemy.name,
+                    type1: enemy.type1,
+                    type2: enemy.type2,
+                    huntLevel: enemy.huntLevel,
+                    hp: enemy.baseHp,
+                    xp: enemy.experience,
+                    mult: null,
+                    score: score
+                });
+            }
+        }
+
+        // Ordenação estrita: 4x > 2x > 1x -> maior Eficiência
+        results.sort((a, b) => {
+            if (myPoke && b.mult !== a.mult) {
+                return b.mult - a.mult;
+            }
+            return b.score - a.score;
+        });
+
+        const section = document.getElementById('resultsSection');
+        const podiumGrid = document.getElementById('podiumGrid');
+        const tbody = document.querySelector('#resultsTable tbody');
+        const thVantagem = document.getElementById('thVantagem');
+
+        tbody.innerHTML = '';
+        podiumGrid.innerHTML = '';
+
+        if (results.length === 0) {
+            alertBox.innerText = 'Nenhum Pokémon encontrado para esses filtros.';
+            alertBox.style.display = 'block';
+            section.style.display = 'none';
+            return;
+        }
+
+        thVantagem.style.display = myPoke ? '' : 'none';
+
+        // Render Top 3 Podium
+        const top3 = results.slice(0, 3);
+        const rankLabels = ['👑 1º Lugar', '🥈 2º Lugar', '🥉 3º Lugar'];
+        top3.forEach((r, idx) => {
+            const card = document.createElement('div');
+            card.className = `podium-card rank-${idx + 1}`;
+            const sprite = getSpriteUrl(r.pokeId, r.name);
+            card.innerHTML = `
+                <div class="card-badge-rank">${rankLabels[idx]}</div>
+                <div class="podium-header">
+                    <img class="poke-avatar" src="${sprite}" alt="${r.name}" onerror="this.style.display='none'">
+                    <div>
+                        <div class="podium-name">${r.name}</div>
+                        <div class="podium-hl">Hunt Level ${r.huntLevel}</div>
+                        <div style="margin-top:4px;">${renderTypePills(r.type1, r.type2)}</div>
+                    </div>
+                </div>
+                <div class="podium-stats">
+                    <div class="podium-stat-item">
+                        <span class="podium-stat-label">HP Base</span>
+                        <span class="podium-stat-value">${r.hp}</span>
+                    </div>
+                    <div class="podium-stat-item">
+                        <span class="podium-stat-label">XP Bruto</span>
+                        <span class="podium-stat-value" style="color:var(--gold-light);">${r.xp.toLocaleString()}</span>
+                    </div>
+                </div>
+                <div class="podium-footer">
+                    <div>${myPoke ? renderMultiplierPill(r.mult) : '<span style="font-size:12px; color:var(--text-dim)">Sem Pokémon</span>'}</div>
+                    <div class="score-box">${Math.round(r.score)} <span style="font-size:10px; color:var(--text-dim)">PTS</span></div>
+                </div>
+            `;
+            podiumGrid.appendChild(card);
+        });
+
+        // Render Table (Top 25)
+        const topTable = results.slice(0, 25);
+        topTable.forEach((r, idx) => {
+            const tr = document.createElement('tr');
+            const sprite = getSpriteUrl(r.pokeId, r.name);
+            tr.innerHTML = `
+                <td style="color: var(--text-dim); font-family: monospace; font-size: 13px;">${idx + 1}</td>
+                <td>
+                    <div class="col-poke">
+                        <img class="table-sprite" src="${sprite}" alt="${r.name}" onerror="this.style.display='none'">
+                        <div>
+                            <strong style="color:#fff;">${r.name}</strong><br>
+                            ${renderTypePills(r.type1, r.type2)}
+                        </div>
+                    </div>
+                </td>
+                <td><strong style="color:#fff;">${r.huntLevel}</strong></td>
+                <td>${r.hp}</td>
+                <td class="xp-val">${r.xp.toLocaleString()}</td>
+                ${myPoke ? `<td>${renderMultiplierPill(r.mult)}</td>` : ''}
+                <td style="text-align: right; font-weight: 700; color: #38bdf8; font-family: monospace;">${Math.round(r.score)}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        section.style.display = 'block';
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+</script>
+
+</body>
+</html>

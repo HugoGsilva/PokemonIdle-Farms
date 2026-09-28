@@ -1,0 +1,5813 @@
+{
+ "items": [
+  {
+   "id": 1,
+   "name": "Air Tank",
+   "icon": "air_tank.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 2,
+   "name": "Ancient Stone",
+   "icon": "/assets/stones/ancient_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 50000
+  },
+  {
+   "id": 3,
+   "name": "Armadillo Claw",
+   "icon": "armadillo_claw.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 147
+  },
+  {
+   "id": 4,
+   "name": "Bag of Pollen",
+   "icon": "bag_of_pollen.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 5,
+   "name": "Band Aid",
+   "icon": "band_aid.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 6,
+   "name": "Bat Wing",
+   "icon": "bat_wing.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 78
+  },
+  {
+   "id": 7,
+   "name": "Bee Sting",
+   "icon": "bee_sting.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 54
+  },
+  {
+   "id": 8,
+   "name": "Belt of Champion",
+   "icon": "belt_of_champion.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 9,
+   "name": "Bird Beak",
+   "icon": "bird_beak.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 30
+  },
+  {
+   "id": 10,
+   "name": "Bitten Apple",
+   "icon": "bitten_apple.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 7
+  },
+  {
+   "id": 11,
+   "name": "Blue Fish Fin",
+   "icon": "blue_fish_fin.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 12,
+   "name": "Blue Vines",
+   "icon": "blue_vines.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 13,
+   "name": "Bone",
+   "icon": "bone.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 123
+  },
+  {
+   "id": 14,
+   "name": "Bottles of Poison",
+   "icon": "bottles_of_poison.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 15,
+   "name": "Bug Antenna",
+   "icon": "bug_antenna.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 96
+  },
+  {
+   "id": 16,
+   "name": "Bug Gosme",
+   "icon": "bug_gosme.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 17,
+   "name": "Bug Venom",
+   "icon": "bug_venom.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 371
+  },
+  {
+   "id": 18,
+   "name": "Bulb",
+   "icon": "bulb.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 132
+  },
+  {
+   "id": 19,
+   "name": "Bull Tail",
+   "icon": "bull_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 20,
+   "name": "Butterfly Wing",
+   "icon": "butterfly_wing.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 66
+  },
+  {
+   "id": 21,
+   "name": "Chansey Egg",
+   "icon": "chansey_egg.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 22,
+   "name": "Chicken Feet",
+   "icon": "chicken_feet.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 23,
+   "name": "Cocoon Stone",
+   "icon": "cocoon_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 24,
+   "name": "Colored Feather",
+   "icon": "colored_feather.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 168
+  },
+  {
+   "id": 25,
+   "name": "Comb",
+   "icon": "comb.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 26,
+   "name": "Crab Claw",
+   "icon": "crab_claw.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 90
+  },
+  {
+   "id": 27,
+   "name": "Crystal Cube",
+   "icon": "crystal_cube.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 28,
+   "name": "Crystal Stone",
+   "icon": "crystal_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 50000
+  },
+  {
+   "id": 29,
+   "name": "Crystal Tail",
+   "icon": "crystal_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 30,
+   "name": "Dark Gem",
+   "icon": "_loot_placeholder.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 31,
+   "name": "Darkness Stone",
+   "icon": "darkness_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 32,
+   "name": "Diving Mask",
+   "icon": "diving_mask.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 33,
+   "name": "Dodo Cube",
+   "icon": "dodo_cube.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 34,
+   "name": "Dodrio Feather",
+   "icon": "dodrio_feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 102
+  },
+  {
+   "id": 35,
+   "name": "Dome Fossil",
+   "icon": "dome_fossil.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 36,
+   "name": "Dragon Scale",
+   "icon": "dragon_scale.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 37,
+   "name": "Dragon Tail",
+   "icon": "dragon_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 38,
+   "name": "Dragon Tooth",
+   "icon": "dragon_tooth.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 610
+  },
+  {
+   "id": 39,
+   "name": "Earth Ball",
+   "icon": "earth_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 40,
+   "name": "Earth Stone",
+   "icon": "earth_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 41,
+   "name": "Electric Box",
+   "icon": "electric_box.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 20
+  },
+  {
+   "id": 42,
+   "name": "Electric Rat Tail",
+   "icon": "electric_rat_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 132
+  },
+  {
+   "id": 43,
+   "name": "Electric Tail",
+   "icon": "electric_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 44,
+   "name": "Enchanted Gem",
+   "icon": "enchanted_gem.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 45,
+   "name": "Enigma Stone",
+   "icon": "enigma_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 46,
+   "name": "Essence of Fire",
+   "icon": "essence_of_fire.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 47,
+   "name": "Farfetchd Stick",
+   "icon": "farfetchd_stick.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 300
+  },
+  {
+   "id": 48,
+   "name": "Feather",
+   "icon": "feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8
+  },
+  {
+   "id": 49,
+   "name": "Feather Stone",
+   "icon": "/assets/stones/feather_stone.png",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 50,
+   "name": "Female Ear",
+   "icon": "female_ear.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 147
+  },
+  {
+   "id": 51,
+   "name": "Fins",
+   "icon": "fins.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 52,
+   "name": "Fire Horse Foot",
+   "icon": "fire_horse_foot.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 114
+  },
+  {
+   "id": 53,
+   "name": "Fire Stone",
+   "icon": "fire_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 54,
+   "name": "Fire Tail",
+   "icon": "fire_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 132
+  },
+  {
+   "id": 55,
+   "name": "Fish Fin",
+   "icon": "fish_fin.gif",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 56,
+   "name": "Fox Tail",
+   "icon": "fox_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 57,
+   "name": "Fur",
+   "icon": "fur.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 13
+  },
+  {
+   "id": 58,
+   "name": "Future Orb",
+   "icon": "future_orb.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 16
+  },
+  {
+   "id": 59,
+   "name": "Ghost Essence",
+   "icon": "ghost_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 60,
+   "name": "Giant Fin",
+   "icon": "giant_fin.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 61,
+   "name": "Giant Piece of Fur",
+   "icon": "giant_piece_of_fur.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 180
+  },
+  {
+   "id": 62,
+   "name": "Giant Ruby",
+   "icon": "giant_ruby.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 200
+  },
+  {
+   "id": 63,
+   "name": "Goggles",
+   "icon": "_loot_placeholder.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 64,
+   "name": "Gosme",
+   "icon": "gosme.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 78
+  },
+  {
+   "id": 65,
+   "name": "Gyarados Tail",
+   "icon": "gyarados_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 66,
+   "name": "Heart Stone",
+   "icon": "heart_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 67,
+   "name": "Helix Fossil",
+   "icon": "helix_fossil.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 68,
+   "name": "Horn",
+   "icon": "horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 25
+  },
+  {
+   "id": 69,
+   "name": "Horn Drill",
+   "icon": "horn_drill.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 70,
+   "name": "Ice Orb",
+   "icon": "ice_orb.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 33
+  },
+  {
+   "id": 71,
+   "name": "Ice Stone",
+   "icon": "ice_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 72,
+   "name": "Iron Bracelet",
+   "icon": "iron_bracelet.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 114
+  },
+  {
+   "id": 73,
+   "name": "Kanga Ear",
+   "icon": "kanga_ear.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 74,
+   "name": "Karate Duck",
+   "icon": "karate_duck.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 123
+  },
+  {
+   "id": 75,
+   "name": "Kick Machine",
+   "icon": "kick_machine.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 135
+  },
+  {
+   "id": 76,
+   "name": "Leaf Stone",
+   "icon": "leaf_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 77,
+   "name": "Leaves",
+   "icon": "leaves.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 9
+  },
+  {
+   "id": 78,
+   "name": "Linearly Guided Hypnosis",
+   "icon": "linearly_guided_hypnosis.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 410
+  },
+  {
+   "id": 79,
+   "name": "Locksmith of Shell",
+   "icon": "locksmith_of_shell.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 24
+  },
+  {
+   "id": 80,
+   "name": "Luck Medallion",
+   "icon": "luck_medallion.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 81,
+   "name": "Magikarp Fin",
+   "icon": "magikarp_fin.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3
+  },
+  {
+   "id": 82,
+   "name": "Magma Foot",
+   "icon": "magma_foot.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 83,
+   "name": "Magnet",
+   "icon": "magnet.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 90
+  },
+  {
+   "id": 84,
+   "name": "Magnetic Cube",
+   "icon": "magnetic_cube.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 85,
+   "name": "Male Ear",
+   "icon": "male_ear.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 147
+  },
+  {
+   "id": 86,
+   "name": "Martial Arts Scroll",
+   "icon": "martial_arts_scroll.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 185
+  },
+  {
+   "id": 87,
+   "name": "Metal Stone",
+   "icon": "/assets/stones/metal_stone.png",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 50000
+  },
+  {
+   "id": 88,
+   "name": "Microphone",
+   "icon": "microphone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 147
+  },
+  {
+   "id": 89,
+   "name": "Mimic Clothes",
+   "icon": "mimic_clothes.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 90,
+   "name": "Mushroom",
+   "icon": "mushroom.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 114
+  },
+  {
+   "id": 91,
+   "name": "Nail",
+   "icon": "nail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 92,
+   "name": "Neodymium Magnet",
+   "icon": "neodymium_magnet.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 93,
+   "name": "Old Amber",
+   "icon": "old_amber.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 94,
+   "name": "Onix Tail",
+   "icon": "onix_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 371
+  },
+  {
+   "id": 95,
+   "name": "Piece of Diglett",
+   "icon": "piece_of_diglett.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 78
+  },
+  {
+   "id": 96,
+   "name": "Piece of Steel",
+   "icon": "piece_of_steel.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 97,
+   "name": "Pinsir Horn",
+   "icon": "pinsir_horn.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 98,
+   "name": "Plant Foot",
+   "icon": "plant_foot.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 123
+  },
+  {
+   "id": 99,
+   "name": "Plant Tail",
+   "icon": "plant_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 114
+  },
+  {
+   "id": 100,
+   "name": "Pot Of Lava",
+   "icon": "pot_of_lava.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 18
+  },
+  {
+   "id": 101,
+   "name": "Pot of Lava",
+   "icon": "pot_of_lava.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 18
+  },
+  {
+   "id": 102,
+   "name": "Pot of Moss Bug",
+   "icon": "pot_of_moss_bug.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8
+  },
+  {
+   "id": 103,
+   "name": "Psychic Spoon",
+   "icon": "psychic_spoon.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 180
+  },
+  {
+   "id": 104,
+   "name": "Psyduck Mug",
+   "icon": "psyduck_mug.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 129
+  },
+  {
+   "id": 105,
+   "name": "Punch Machine",
+   "icon": "punch_machine.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 135
+  },
+  {
+   "id": 106,
+   "name": "Punch Stone",
+   "icon": "punch_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 107,
+   "name": "Rat Tail",
+   "icon": "rat_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 54
+  },
+  {
+   "id": 108,
+   "name": "Red Wing",
+   "icon": "red_wing.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 114
+  },
+  {
+   "id": 109,
+   "name": "Rock Stone",
+   "icon": "rock_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 110,
+   "name": "Rubber Ball",
+   "icon": "rubber_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 111,
+   "name": "Ruby",
+   "icon": "ruby.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 112,
+   "name": "Sandbag",
+   "icon": "sandbag.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 15
+  },
+  {
+   "id": 113,
+   "name": "Screw",
+   "icon": "screw.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 114,
+   "name": "Scythe",
+   "icon": "scythe.gif",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 115,
+   "name": "Seahorse Tail",
+   "icon": "seahorse_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 116,
+   "name": "Seal Tail",
+   "icon": "seal_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 147
+  },
+  {
+   "id": 117,
+   "name": "Seed",
+   "icon": "seed.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 118,
+   "name": "Ski Poles",
+   "icon": "ski_poles.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 1000
+  },
+  {
+   "id": 119,
+   "name": "Slow Tail",
+   "icon": "slow_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 225
+  },
+  {
+   "id": 120,
+   "name": "Small Stone",
+   "icon": "small_stone.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 121,
+   "name": "Snake Tail",
+   "icon": "snake_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 78
+  },
+  {
+   "id": 122,
+   "name": "Snow Skis",
+   "icon": "snow_skis.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 123,
+   "name": "Snowball",
+   "icon": "snowball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 124,
+   "name": "Squirtle Hull",
+   "icon": "squirtle_hull.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 132
+  },
+  {
+   "id": 125,
+   "name": "Sticky Hand",
+   "icon": "sticky_hand.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 120
+  },
+  {
+   "id": 126,
+   "name": "Stone Orb",
+   "icon": "stone_orb.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 17
+  },
+  {
+   "id": 127,
+   "name": "Strange Flower",
+   "icon": "strange_flower.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 114
+  },
+  {
+   "id": 128,
+   "name": "Strange Rock",
+   "icon": "strange_rock.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 159
+  },
+  {
+   "id": 129,
+   "name": "Strange Spike",
+   "icon": "strange_spike.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 135
+  },
+  {
+   "id": 130,
+   "name": "Strange Thing",
+   "icon": "strange_thing.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 147
+  },
+  {
+   "id": 131,
+   "name": "Straw",
+   "icon": "straw.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 132,
+   "name": "Tentacruel Tentacle",
+   "icon": "tentacruel_tentacle.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 500
+  },
+  {
+   "id": 133,
+   "name": "Thunder Stone",
+   "icon": "thunder_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 134,
+   "name": "Tongue",
+   "icon": "tongue.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 410
+  },
+  {
+   "id": 135,
+   "name": "Tooth",
+   "icon": "tooth.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8
+  },
+  {
+   "id": 136,
+   "name": "Topknot",
+   "icon": "topknot.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 147
+  },
+  {
+   "id": 137,
+   "name": "Traces of Ghost",
+   "icon": "traces_of_ghost.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 180
+  },
+  {
+   "id": 138,
+   "name": "Venom Flute",
+   "icon": "venom_flute.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 78
+  },
+  {
+   "id": 139,
+   "name": "Venom Stone",
+   "icon": "venom_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 140,
+   "name": "Water Gem",
+   "icon": "water_gem.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1
+  },
+  {
+   "id": 141,
+   "name": "Water Pendant",
+   "icon": "water_pendant.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 142,
+   "name": "Water Stone",
+   "icon": "water_stone.gif",
+   "category": "stone",
+   "rare": true,
+   "npcPrice": 5000
+  },
+  {
+   "id": 143,
+   "name": "Wool Ball",
+   "icon": "wool_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 69
+  },
+  {
+   "id": 200,
+   "name": "Small Potion",
+   "icon": "/assets/markitems/small_potion.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 50,
+   "healAmount": 60,
+   "priceGold": 5
+  },
+  {
+   "id": 201,
+   "name": "Great Potion",
+   "icon": "/assets/markitems/great_potion.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 150,
+   "healAmount": 150,
+   "priceGold": 10
+  },
+  {
+   "id": 202,
+   "name": "Ultra Potion",
+   "icon": "/assets/markitems/ultra_potion.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 400,
+   "healAmount": 400,
+   "priceGold": 22
+  },
+  {
+   "id": 203,
+   "name": "Hyper Potion",
+   "icon": "/assets/markitems/hyper_potion.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 800,
+   "healAmount": 1000,
+   "priceGold": 55
+  },
+  {
+   "id": 204,
+   "name": "Ultimate Potion",
+   "icon": "/assets/markitems/ultimate_potion.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 1500,
+   "healAmount": 3000,
+   "priceGold": 135
+  },
+  {
+   "id": 205,
+   "name": "Revive",
+   "icon": "/assets/markitems/revive.png",
+   "category": "revive",
+   "rare": false,
+   "npcPrice": 600,
+   "revivePct": 0.5,
+   "priceGold": 40
+  },
+  {
+   "id": 206,
+   "name": "Max Revive",
+   "icon": "/assets/markitems/max_revive.png",
+   "category": "revive",
+   "rare": true,
+   "npcPrice": 2500,
+   "revivePct": 1,
+   "priceGold": 350
+  },
+  {
+   "id": 207,
+   "name": "Medicine",
+   "icon": "/assets/markitems/medicine.png",
+   "category": "heal",
+   "rare": false,
+   "npcPrice": 0,
+   "healAmount": 20
+  },
+  {
+   "id": 208,
+   "name": "Moon Stone",
+   "icon": "moon_stone.png",
+   "category": "stone",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 209,
+   "name": "Sun Stone",
+   "icon": "/assets/stones/sun_stone.png",
+   "category": "stone",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 2380,
+   "name": "Ice Bra",
+   "icon": "ice_bra.png",
+   "category": "loot",
+   "npcPrice": 1000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 5002,
+   "name": "Azure Shard",
+   "icon": "/assets/items/azure_shard.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5008,
+   "name": "Big Bug Gosme",
+   "icon": "/assets/items/big_bug_gosme.gif",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5009,
+   "name": "Big Enchanted Gem",
+   "icon": "/assets/items/big_enchanted_gem.gif",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5010,
+   "name": "Big Poison Bottle",
+   "icon": "/assets/items/big_poison_bottle.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5020,
+   "name": "Cerise Shard",
+   "icon": "/assets/items/cerise_shard.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5024,
+   "name": "Corrupted Ice Orb",
+   "icon": "/assets/items/corrupted_ice_orb.gif",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5025,
+   "name": "Corrupted Pot of Moss Bug",
+   "icon": "/assets/items/corrupted_pot_of_moss_bug.gif",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5028,
+   "name": "Cyan Nightmare Gem",
+   "icon": "/assets/items/cyan_nightmare_gem.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5041,
+   "name": "Farfetch'd Stick",
+   "icon": "farfetchd_stick.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5054,
+   "name": "Googles",
+   "icon": "/assets/items/googles.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5056,
+   "name": "Harlequin Shard",
+   "icon": "/assets/items/harlequin_shard.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5069,
+   "name": "Malefic Essence",
+   "icon": "/assets/items/malefic_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 500
+  },
+  {
+   "id": 5071,
+   "name": "Metal Scraps",
+   "icon": "/assets/items/metal_scraps.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5075,
+   "name": "Naturia Essence",
+   "icon": "/assets/items/naturia_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5076,
+   "name": "Neutral Essence",
+   "icon": "/assets/items/neutral_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5077,
+   "name": "Nightmare Gem",
+   "icon": "/assets/items/nightmare_gem.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5078,
+   "name": "Nightmare Ore",
+   "icon": "/assets/items/nightmare_ore.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5087,
+   "name": "Psychic Mustache",
+   "icon": "/assets/items/psychic_mustache.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5089,
+   "name": "Psycraft Essence",
+   "icon": "/assets/items/psycraft_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5101,
+   "name": "Seavell Essence",
+   "icon": "/assets/items/seavell_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10
+  },
+  {
+   "id": 5109,
+   "name": "Solid Ice Cube",
+   "icon": "/assets/items/solid_ice_cube.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5200,
+   "name": "Rough Gemstone",
+   "icon": "/assets/stones/rough_gemstone.png",
+   "category": "stone",
+   "rare": false,
+   "npcPrice": 5000
+  },
+  {
+   "id": 5301,
+   "name": "Big Screw",
+   "icon": "/assets/items/big_screw.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5302,
+   "name": "Compressed Fire",
+   "icon": "/assets/items/compressed_fire.gif",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5303,
+   "name": "Pile of Seed",
+   "icon": "/assets/items/pile_of_seed.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5304,
+   "name": "Compressed Steel",
+   "icon": "/assets/items/compressed_steel.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5305,
+   "name": "Solid Water Gem",
+   "icon": "/assets/items/solid_water_gem.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5307,
+   "name": "Compressed Straw",
+   "icon": "/assets/items/compressed_straw.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5308,
+   "name": "Dragon Scale Collection",
+   "icon": "/assets/items/dragon_scale_collection.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5309,
+   "name": "Solid Earth Piece",
+   "icon": "/assets/items/solid_earth_piece.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5310,
+   "name": "Big Stone",
+   "icon": "/assets/items/big_stone.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5311,
+   "name": "Injection",
+   "icon": "/assets/items/injection.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5312,
+   "name": "Solid Rubber Ball",
+   "icon": "/assets/items/solid_rubber_ball.png",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5313,
+   "name": "Compressed Ghost Essence",
+   "icon": "/assets/items/compressed_ghost_essence.gif",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 5314,
+   "name": "Solid Dark Gem",
+   "icon": "/assets/items/solid_dark_gem.gif",
+   "category": "clan",
+   "rare": false,
+   "npcPrice": 100
+  },
+  {
+   "id": 7374,
+   "name": "Flareon Cream",
+   "icon": "flareon_cream.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 7377,
+   "name": "Vaporeon Cream",
+   "icon": "vaporeon_cream.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 11510,
+   "name": "Great Petal",
+   "icon": "great_petal.png",
+   "category": "loot",
+   "npcPrice": 132,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11511,
+   "name": "Hot Fur",
+   "icon": "hot_fur.png",
+   "category": "loot",
+   "npcPrice": 132,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11512,
+   "name": "Red Scale",
+   "icon": "red_scale.png",
+   "category": "loot",
+   "npcPrice": 132,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11513,
+   "name": "Squirrel Tail",
+   "icon": "squirrel_tail.png",
+   "category": "loot",
+   "npcPrice": 78,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11514,
+   "name": "Owl Feather",
+   "icon": "owl_feather.png",
+   "category": "loot",
+   "npcPrice": 147,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11515,
+   "name": "Ladybug Wing",
+   "icon": "ladybug_wing.png",
+   "category": "loot",
+   "npcPrice": 78,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11516,
+   "name": "Spider Leg",
+   "icon": "spider_leg.png",
+   "category": "loot",
+   "npcPrice": 78,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11517,
+   "name": "Giant Bat Wing",
+   "icon": "giant_bat_wing.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11518,
+   "name": "Point Of Light",
+   "icon": "point_of_light.png",
+   "category": "loot",
+   "npcPrice": 114,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11520,
+   "name": "Eggshell",
+   "icon": "eggshell.png",
+   "category": "loot",
+   "npcPrice": 1000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11521,
+   "name": "Strange Wing",
+   "icon": "strange_wing.png",
+   "category": "loot",
+   "npcPrice": 168,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11522,
+   "name": "Sheep Wool",
+   "icon": "sheep_wool.png",
+   "category": "loot",
+   "npcPrice": 132,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11524,
+   "name": "Blue Ball",
+   "icon": "blue_ball.png",
+   "category": "loot",
+   "npcPrice": 147,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11525,
+   "name": "Branch of Stone",
+   "icon": "branch_of_stone.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11527,
+   "name": "Yellow Flower",
+   "icon": "yellow_flower.png",
+   "category": "loot",
+   "npcPrice": 114,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11528,
+   "name": "Monkey Paw",
+   "icon": "monkey_paw.png",
+   "category": "loot",
+   "npcPrice": 90,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11529,
+   "name": "Helicopter Leaves",
+   "icon": "helicopter_leaves.png",
+   "category": "loot",
+   "npcPrice": 69,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11530,
+   "name": "Strange Tail",
+   "icon": "strange_tail.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11531,
+   "name": "Strange Antenna",
+   "icon": "strange_antenna.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11532,
+   "name": "Piece Of Shell",
+   "icon": "piece_of_shell.png",
+   "category": "loot",
+   "npcPrice": 147,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11533,
+   "name": "Small Wing",
+   "icon": "small_wing.png",
+   "category": "loot",
+   "npcPrice": 69,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11534,
+   "name": "Gligar Claw",
+   "icon": "gligar_claw.png",
+   "category": "loot",
+   "npcPrice": 90,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11535,
+   "name": "Dog Ear",
+   "icon": "dog_ear.png",
+   "category": "loot",
+   "npcPrice": 147,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11536,
+   "name": "Small Tail",
+   "icon": "small_tail.png",
+   "category": "loot",
+   "npcPrice": 123,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11537,
+   "name": "Scizor Claw",
+   "icon": "scizor_claw.png",
+   "category": "loot",
+   "npcPrice": 2000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11538,
+   "name": "Steelix Tail",
+   "icon": "steelix_tail.png",
+   "category": "loot",
+   "npcPrice": 2000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11539,
+   "name": "Small Shell",
+   "icon": "small_shell.png",
+   "category": "loot",
+   "npcPrice": 69,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11540,
+   "name": "Insect Claw",
+   "icon": "insect_claw.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11542,
+   "name": "Bear Paw",
+   "icon": "bear_paw.png",
+   "category": "loot",
+   "npcPrice": 204,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11543,
+   "name": "Fire Ear",
+   "icon": "fire_ear.png",
+   "category": "loot",
+   "npcPrice": 135,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11544,
+   "name": "Tusk",
+   "icon": "tusk.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11545,
+   "name": "Piece Of Coral",
+   "icon": "piece_of_coral.png",
+   "category": "loot",
+   "npcPrice": 114,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11546,
+   "name": "Tentacle",
+   "icon": "tentacle.png",
+   "category": "loot",
+   "npcPrice": 159,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11547,
+   "name": "Gift Bag",
+   "icon": "gift_bag.png",
+   "category": "loot",
+   "npcPrice": 90,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11548,
+   "name": "Streak Tail",
+   "icon": "streak_tail.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11549,
+   "name": "Steel Wing",
+   "icon": "steel_wing.png",
+   "category": "loot",
+   "npcPrice": 192,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11550,
+   "name": "Strange Bone",
+   "icon": "strange_bone.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11552,
+   "name": "Elephant Foot",
+   "icon": "elephant_foot.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11553,
+   "name": "Reindeer Horn",
+   "icon": "reindeer_horn.png",
+   "category": "loot",
+   "npcPrice": 123,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11554,
+   "name": "Brush",
+   "icon": "brush.png",
+   "category": "loot",
+   "npcPrice": 90,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11555,
+   "name": "Spin Machine",
+   "icon": "spin_machine.png",
+   "category": "loot",
+   "npcPrice": 135,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11556,
+   "name": "Cow Tail",
+   "icon": "cow_tail.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11560,
+   "name": "Lizard Tail",
+   "icon": "lizard_tail.png",
+   "category": "loot",
+   "npcPrice": 450,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11586,
+   "name": "Gem Star",
+   "icon": "gem_star.png",
+   "category": "loot",
+   "npcPrice": 78,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11592,
+   "name": "Insect Tail",
+   "icon": "insect_tail.png",
+   "category": "loot",
+   "npcPrice": 114,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11593,
+   "name": "Wooper Horn",
+   "icon": "wooper_horn.png",
+   "category": "loot",
+   "npcPrice": 147,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11594,
+   "name": "Dark Beak",
+   "icon": "dark_beak.png",
+   "category": "loot",
+   "npcPrice": 123,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 11595,
+   "name": "Miss Trace",
+   "icon": "miss_trace.png",
+   "category": "loot",
+   "npcPrice": 310,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 12948,
+   "name": "Eevee Bag",
+   "icon": "eevee_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 12953,
+   "name": "Flareon Bag",
+   "icon": "flareon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 12956,
+   "name": "Jolteon Bag",
+   "icon": "jolteon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 12957,
+   "name": "Vaporeon Bag",
+   "icon": "vaporeon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 12960,
+   "name": "Umbreon Bag",
+   "icon": "umbreon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 12961,
+   "name": "Espeon Bag",
+   "icon": "espeon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 14869,
+   "name": "Protector",
+   "icon": "protector.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma armadura rígida e pesada. 10x evoluem Rhydon para Rhyperior"
+  },
+  {
+   "id": 14870,
+   "name": "Magmarizer",
+   "icon": "magmarizer.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um dispositivo carregado de magma. 10x evoluem Magmar para Magmortar"
+  },
+  {
+   "id": 14871,
+   "name": "Electirizer",
+   "icon": "electirizer.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um dispositivo carregado de eletricidade. 10x evoluem Electabuzz para Electivire"
+  },
+  {
+   "id": 14872,
+   "name": "Reaper Cloth",
+   "icon": "reaper_cloth.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um pano impregnado de energia espiritual. 10x evoluem Dusclops para Dusknoir"
+  },
+  {
+   "id": 14873,
+   "name": "Prism Scale",
+   "icon": "prism_scale.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma escama que brilha em todas as cores. 10x evoluem Feebas para Milotic"
+  },
+  {
+   "id": 14874,
+   "name": "Metal Coat",
+   "icon": "metal_coat.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma película de metal especial. 10x evoluem Metang para Metagross"
+  },
+  {
+   "id": 14875,
+   "name": "Gaia Tentacles",
+   "icon": "gaia_tentacles.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Tentáculos imbuídos da força da terra. 10x evoluem Tangela para Tangrowth"
+  },
+  {
+   "id": 14877,
+   "name": "Power Banana",
+   "icon": "power_banana.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma banana carregada de energia bruta. Dropada pelo boss Slaking em Orre"
+  },
+  {
+   "id": 14878,
+   "name": "Bloody Wing",
+   "icon": "bloody_wing.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Asas manchadas de sangue de um dragão. 10x evoluem Shelgon para Salamence"
+  },
+  {
+   "id": 14898,
+   "name": "Beautiful Scales",
+   "icon": "beautiful_scales.png",
+   "category": "loot",
+   "npcPrice": 10000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 14925,
+   "name": "Solid Rock Paw",
+   "icon": "solid_rock_paw.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 14926,
+   "name": "Massive Vines",
+   "icon": "massive_vines.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 14927,
+   "name": "Max Volt Paw",
+   "icon": "max_volt_paw.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 14928,
+   "name": "Blaze Topknot",
+   "icon": "blaze_topknot.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 14929,
+   "name": "Scary Smile",
+   "icon": "scary_smile.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 15350,
+   "name": "Wingeon Backpack",
+   "icon": "wingeon_backpack.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 15351,
+   "name": "Psycraft Backpack",
+   "icon": "psycraft_backpack.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 15352,
+   "name": "Gardestrike Backpack",
+   "icon": "gardestrike_backpack.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 15357,
+   "name": "Seavell Backpack",
+   "icon": "seavell_backpack.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 15359,
+   "name": "Ironhard Backpack",
+   "icon": "ironhard_backpack.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 15472,
+   "name": "Armor Fossil",
+   "icon": "armor_fossil.png",
+   "category": "loot",
+   "npcPrice": 60000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 15473,
+   "name": "Shiny Stone",
+   "icon": "shiny_stone.png",
+   "category": "loot",
+   "npcPrice": 100000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 15474,
+   "name": "Bone Shield",
+   "icon": "bone_shield.png",
+   "category": "loot",
+   "npcPrice": 30000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 16257,
+   "name": "Shiny Venusaur Card",
+   "icon": "/assets/cards/16257.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Venusaur dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16260,
+   "name": "Shiny Charizard Card",
+   "icon": "/assets/cards/16260.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Charizard dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16263,
+   "name": "Shiny Blastoise Card",
+   "icon": "/assets/cards/16263.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Blastoise dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16266,
+   "name": "Shiny Butterfree Card",
+   "icon": "/assets/cards/16266.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Butterfree dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16269,
+   "name": "Shiny Beedrill Card",
+   "icon": "/assets/cards/16269.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Beedrill dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16272,
+   "name": "Shiny Pidgeot Card",
+   "icon": "/assets/cards/16272.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Pidgeot dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16276,
+   "name": "Shiny Fearow Card",
+   "icon": "/assets/cards/16276.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Fearow dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16280,
+   "name": "Shiny Raichu Card",
+   "icon": "/assets/cards/16280.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Raichu dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16288,
+   "name": "Shiny Nidoking Card",
+   "icon": "/assets/cards/16288.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Nidoking dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16296,
+   "name": "Shiny Golbat Card",
+   "icon": "/assets/cards/16296.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Golbat dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16297,
+   "name": "Shiny Oddish Card",
+   "icon": "/assets/cards/16297.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Oddish dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16299,
+   "name": "Shiny Vileplume Card",
+   "icon": "/assets/cards/16299.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Vileplume dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16300,
+   "name": "Shiny Paras Card",
+   "icon": "/assets/cards/16300.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Paras dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16301,
+   "name": "Shiny Parasect Card",
+   "icon": "/assets/cards/16301.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Parasect dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16302,
+   "name": "Shiny Venonat Card",
+   "icon": "/assets/cards/16302.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Venonat dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16303,
+   "name": "Shiny Venomoth Card",
+   "icon": "/assets/cards/16303.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Venomoth dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16313,
+   "name": "Shiny Arcanine Card",
+   "icon": "/assets/cards/16313.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Arcanine dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16319,
+   "name": "Shiny Alakazam Card",
+   "icon": "/assets/cards/16319.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Alakazam dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16322,
+   "name": "Shiny Machamp Card",
+   "icon": "/assets/cards/16322.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Machamp dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16326,
+   "name": "Shiny Tentacool Card",
+   "icon": "/assets/cards/16326.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Tentacool dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16327,
+   "name": "Shiny Tentacruel Card",
+   "icon": "/assets/cards/16327.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Tentacruel dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16330,
+   "name": "Shiny Golem Card",
+   "icon": "/assets/cards/16330.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Golem dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16336,
+   "name": "Shiny Magneton Card",
+   "icon": "/assets/cards/16336.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Magneton dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16337,
+   "name": "Shiny Farfetch'd Card",
+   "icon": "/assets/cards/16337.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Farfetch'd dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16342,
+   "name": "Shiny Grimer Card",
+   "icon": "/assets/cards/16342.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Grimer dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16343,
+   "name": "Shiny Muk Card",
+   "icon": "/assets/cards/16343.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Muk dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16348,
+   "name": "Shiny Gengar Card",
+   "icon": "/assets/cards/16348.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Gengar dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16349,
+   "name": "Shiny Onix Card",
+   "icon": "/assets/cards/16349.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Onix dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16351,
+   "name": "Shiny Hypno Card",
+   "icon": "/assets/cards/16351.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Hypno dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16352,
+   "name": "Shiny Krabby Card",
+   "icon": "/assets/cards/16352.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Krabby dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16353,
+   "name": "Shiny Kingler Card",
+   "icon": "/assets/cards/16353.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Kingler dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16354,
+   "name": "Shiny Voltorb Card",
+   "icon": "/assets/cards/16354.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Voltorb dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16355,
+   "name": "Shiny Electrode Card",
+   "icon": "/assets/cards/16355.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Electrode dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16358,
+   "name": "Shiny Cubone Card",
+   "icon": "/assets/cards/16358.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Cubone dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16359,
+   "name": "Shiny Marowak Card",
+   "icon": "/assets/cards/16359.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Marowak dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16360,
+   "name": "Shiny Hitmonlee Card",
+   "icon": "/assets/cards/16360.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Hitmonlee dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16361,
+   "name": "Shiny Hitmonchan Card",
+   "icon": "/assets/cards/16361.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Hitmonchan dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16366,
+   "name": "Shiny Rhydon Card",
+   "icon": "/assets/cards/16366.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Rhydon dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16368,
+   "name": "Shiny Tangela Card",
+   "icon": "/assets/cards/16368.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Tangela dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16371,
+   "name": "Shiny Seadra Card",
+   "icon": "/assets/cards/16371.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Seadra dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16376,
+   "name": "Shiny Mr. Mime Card",
+   "icon": "/assets/cards/16376.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Mr. Mime dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16377,
+   "name": "Shiny Scyther Card",
+   "icon": "/assets/cards/16377.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Scyther dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16378,
+   "name": "Shiny Jynx Card",
+   "icon": "/assets/cards/16378.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Jynx dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16379,
+   "name": "Shiny Electabuzz Card",
+   "icon": "/assets/cards/16379.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Electabuzz dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16380,
+   "name": "Shiny Magmar Card",
+   "icon": "/assets/cards/16380.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Magmar dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16381,
+   "name": "Shiny Pinsir Card",
+   "icon": "/assets/cards/16381.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Pinsir dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16382,
+   "name": "Shiny Tauros Card",
+   "icon": "/assets/cards/16382.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Tauros dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16384,
+   "name": "Shiny Gyarados Card",
+   "icon": "/assets/cards/16384.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Gyarados dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16396,
+   "name": "Shiny Aerodactyl Card",
+   "icon": "/assets/cards/16396.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Aerodactyl dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16397,
+   "name": "Shiny Snorlax Card",
+   "icon": "/assets/cards/16397.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Snorlax dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16401,
+   "name": "Shiny Dratini Card",
+   "icon": "/assets/cards/16401.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Dratini dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 16402,
+   "name": "Shiny Dragonair Card",
+   "icon": "/assets/cards/16402.png",
+   "category": "card",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Há uma chance de o SHINY de Dragonair dropá-lo ao ser derrotado, e ela sobe com os seus bônus de loot. Sacrifique-o no Altar para invocar esse shiny e tentar a captura."
+  },
+  {
+   "id": 17343,
+   "name": "Kermes Shard",
+   "icon": "kermes_shard.png",
+   "category": "loot",
+   "npcPrice": 150000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 17923,
+   "name": "Leather",
+   "icon": "leather.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 19354,
+   "name": "Fresh Herbs",
+   "icon": "/assets/items/fresh_herbs.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000,
+   "description": "Um punhado de ervas frescas colhidas de um arbusto selvagem. Botânicos as usam pra provar seu valor e evoluir de rank"
+  },
+  {
+   "id": 19356,
+   "name": "Wild Herbs",
+   "icon": "/assets/items/wild_herbs.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 5000,
+   "description": "Um punhado de ervas selvagens colhidas nos arbustos de Orre. Mais robustas — e mais valiosas — que as ervas de Kanto"
+  },
+  {
+   "id": 20096,
+   "name": "Pizza",
+   "icon": "pizza.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20409,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Grim Reaper Costume. Use em um Gengar pra desbloquear o traje."
+  },
+  {
+   "id": 20410,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Arcade Costume. Use em um Golem pra desbloquear o traje."
+  },
+  {
+   "id": 20411,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Golden Armor. Use em um Charizard pra desbloquear o traje."
+  },
+  {
+   "id": 20412,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Venusaur). Use em um Venusaur pra desbloquear o traje."
+  },
+  {
+   "id": 20413,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Blastoise). Use em um Blastoise pra desbloquear o traje."
+  },
+  {
+   "id": 20414,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Electabuzz). Use em um Electabuzz pra desbloquear o traje."
+  },
+  {
+   "id": 20415,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Elder Magician Costume. Use em um Alakazam pra desbloquear o traje."
+  },
+  {
+   "id": 20416,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Glorious Executioner Bug. Use em um Scyther pra desbloquear o traje."
+  },
+  {
+   "id": 20417,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Glorious Executioner Bug (Shiny). Use em um Scyther SHINY pra desbloquear o traje."
+  },
+  {
+   "id": 20418,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um RX The Rat Skin. Use em um Raticate pra desbloquear o traje."
+  },
+  {
+   "id": 20419,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um RX The Rat Skin (Shiny). Use em um Raticate SHINY pra desbloquear o traje."
+  },
+  {
+   "id": 20420,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Anbu Cosplay. Use em um Typhlosion pra desbloquear o traje."
+  },
+  {
+   "id": 20421,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Orange Hat. Use em um Arcanine pra desbloquear o traje."
+  },
+  {
+   "id": 20422,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Fairy Wings Costume. Use em um Sylveon pra desbloquear o traje."
+  },
+  {
+   "id": 20423,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mossy Skin. Use em um Rhydon pra desbloquear o traje."
+  },
+  {
+   "id": 20424,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Sea Empress. Use em um Kingdra pra desbloquear o traje."
+  },
+  {
+   "id": 20425,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Illidan Costume. Use em um Scizor pra desbloquear o traje."
+  },
+  {
+   "id": 20426,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Feraligatr). Use em um Feraligatr pra desbloquear o traje."
+  },
+  {
+   "id": 20427,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Charizard). Use em um Charizard pra desbloquear o traje."
+  },
+  {
+   "id": 20428,
+   "name": "Addon Box",
+   "icon": "/assets/items/addon_box.png",
+   "category": "addon",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Addon Box contendo um Mecha Costume (Meganium). Use em um Meganium pra desbloquear o traje."
+  },
+  {
+   "id": 20447,
+   "name": "Glaceon Bag",
+   "icon": "glaceon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20448,
+   "name": "Leafeon Bag",
+   "icon": "leafeon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20449,
+   "name": "Sylveon Bag",
+   "icon": "sylveon_bag.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20450,
+   "name": "Flareon Valentine's Card",
+   "icon": "flareon_valentine_s_card.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20451,
+   "name": "Vaporeon Valentine's Card",
+   "icon": "vaporeon_valentine_s_card.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20452,
+   "name": "Jolteon Valentine's Card",
+   "icon": "jolteon_valentine_s_card.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 20453,
+   "name": "Eevee Valentine's Card",
+   "icon": "eevee_valentine_s_card.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 21876,
+   "name": "Gardestrike Essence",
+   "icon": "gardestrike_essence.png",
+   "category": "loot",
+   "npcPrice": 1000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 25118,
+   "name": "Virtual Tail",
+   "icon": "virtual_tail.png",
+   "category": "loot",
+   "npcPrice": 4500,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 27304,
+   "name": "10.000 Carat Emerald",
+   "icon": "/assets/items/10000_carat_emerald.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000,
+   "description": "Uma esmeralda colossal de dez mil quilates, lapidada em uma única peça. Colecionadores disputam pedras desse porte a peso de ouro"
+  },
+  {
+   "id": 29040,
+   "name": "Rabbit Fur",
+   "icon": "rabbit_fur.png",
+   "category": "loot",
+   "npcPrice": 7,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 29041,
+   "name": "Rabbit Ear",
+   "icon": "rabbit_ear.png",
+   "category": "loot",
+   "npcPrice": 21,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 29042,
+   "name": "Rabbit Eyebrows",
+   "icon": "rabbit_eyebrows.png",
+   "category": "loot",
+   "npcPrice": 265,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 31466,
+   "name": "Bucket of Honey",
+   "icon": "bucket_of_honey.png",
+   "category": "loot",
+   "npcPrice": 102,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 32115,
+   "name": "Dark Ear",
+   "icon": "dark_ear.png",
+   "category": "loot",
+   "npcPrice": 350,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 32116,
+   "name": "Psychic Ear",
+   "icon": "psychic_ear.png",
+   "category": "loot",
+   "npcPrice": 350,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 32142,
+   "name": "Mystic Flower",
+   "icon": "mystic_flower.png",
+   "category": "loot",
+   "npcPrice": 450,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 32144,
+   "name": "Mystic Petal",
+   "icon": "mystic_petal.png",
+   "category": "loot",
+   "npcPrice": 180,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 37635,
+   "name": "Corrupted Scizor Claw",
+   "icon": "corrupted_scizor_claw.png",
+   "category": "loot",
+   "npcPrice": 6000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 38235,
+   "name": "Lovely Topknot",
+   "icon": "lovely_topknot.png",
+   "category": "loot",
+   "npcPrice": 8000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 38244,
+   "name": "Bear Arm",
+   "icon": "bear_arm.png",
+   "category": "loot",
+   "npcPrice": 8000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 40530,
+   "name": "AoE TM Disk Piece",
+   "icon": "/assets/items/tm_piece_aoe.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 40575,
+   "name": "AoE TM Disk",
+   "icon": "/assets/items/tm_disk_aoe.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 44417,
+   "name": "Strange Pheromone",
+   "icon": "/assets/items/strange_pheromone.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000000,
+   "description": "Um feromônio misterioso com um aroma incomum. Parece estimular os instintos dos Pokémon, tornando-os mais receptivos durante o breeding"
+  },
+  {
+   "id": 44457,
+   "name": "Wild Rovia Berry",
+   "icon": "/assets/items/berry_rovia_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Aumenta FORTEMENTE a cura recebida de todas as poções usadas neste Pokémon (+80% de cura)"
+  },
+  {
+   "id": 45386,
+   "name": "Noble Cloak",
+   "icon": "noble_cloak.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "priceGold": 0,
+   "description": "Item de coleção — o Mark não compra."
+  },
+  {
+   "id": 59194,
+   "name": "TM Disk Piece",
+   "icon": "/assets/items/tm_disk_piece.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59195,
+   "name": "Rare Pokémon Picture",
+   "icon": "/assets/items/rare_pokemon_picture.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 5000,
+   "description": "Uma fotografia rara de um Pokémon Shiny selvagem. Treinadores de Prestígio usam essas fotos pra provar seu valor e evoluir de rank"
+  },
+  {
+   "id": 59200,
+   "name": "Normal-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59201,
+   "name": "Fire-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59202,
+   "name": "Water-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59203,
+   "name": "Grass-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59204,
+   "name": "Electric-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59205,
+   "name": "Ice-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59206,
+   "name": "Fighting-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59207,
+   "name": "Poison-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59208,
+   "name": "Ground-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59209,
+   "name": "Flying-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59210,
+   "name": "Psychic-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59211,
+   "name": "Bug-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59212,
+   "name": "Rock-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59213,
+   "name": "Ghost-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59214,
+   "name": "Dragon-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59215,
+   "name": "Dark-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59216,
+   "name": "Steel-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59217,
+   "name": "greens",
+   "icon": "greens.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59218,
+   "name": "fire feather",
+   "icon": "fire_feather.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59219,
+   "name": "black fins",
+   "icon": "black_fins.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59220,
+   "name": "big seed",
+   "icon": "big_seed.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59221,
+   "name": "pelican wing",
+   "icon": "pelican_wing.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59222,
+   "name": "cute ball",
+   "icon": "cute_ball.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59223,
+   "name": "eruption ears",
+   "icon": "eruption_ears.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59224,
+   "name": "samurai hair",
+   "icon": "samurai_hair.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59225,
+   "name": "mediling",
+   "icon": "mediling.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59226,
+   "name": "shock topknot",
+   "icon": "shock_topknot.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59227,
+   "name": "nu ball",
+   "icon": "nu_ball.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59228,
+   "name": "mini volcano",
+   "icon": "mini_volcano.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59229,
+   "name": "springs",
+   "icon": "springs.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59230,
+   "name": "lobster claw",
+   "icon": "lobster_claw.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59231,
+   "name": "pawn",
+   "icon": "pawn.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59232,
+   "name": "ghost skull",
+   "icon": "ghost_skull.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59233,
+   "name": "ice blocks",
+   "icon": "ice_blocks.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59234,
+   "name": "seal mustache",
+   "icon": "seal_mustache.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59235,
+   "name": "Big Crystal",
+   "icon": "big_crystal.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59236,
+   "name": "Black Hull",
+   "icon": "black_hull.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59237,
+   "name": "Cactus Head",
+   "icon": "cactus_head.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59238,
+   "name": "Cure Flower",
+   "icon": "cure_flower.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59239,
+   "name": "Metal Hull",
+   "icon": "metal_hull.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59240,
+   "name": "Metal Jaw",
+   "icon": "metal_jaw.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59241,
+   "name": "Mini Wings",
+   "icon": "mini_wings.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59242,
+   "name": "Poisonous Tail",
+   "icon": "poisonous_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59243,
+   "name": "Sand Tail",
+   "icon": "sand_tail.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59244,
+   "name": "Sharp Leaves",
+   "icon": "sharp_leaves.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59245,
+   "name": "Small Crown",
+   "icon": "small_crown.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59246,
+   "name": "Tech Ball",
+   "icon": "tech_ball.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 40
+  },
+  {
+   "id": 59247,
+   "name": "Fairy-Type TM Disk",
+   "icon": "/assets/items/tm_disk_elemental.png",
+   "category": "tm",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 59248,
+   "name": "band-aid",
+   "icon": "band_aid.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59249,
+   "name": "cat ear",
+   "icon": "cat_ear.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59250,
+   "name": "cloud",
+   "icon": "cloud.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59251,
+   "name": "crimson feather",
+   "icon": "crimson_feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59252,
+   "name": "dark moon",
+   "icon": "dark_moon.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59253,
+   "name": "doll star",
+   "icon": "doll_star.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59254,
+   "name": "strange ball",
+   "icon": "strange_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59255,
+   "name": "tribe mark",
+   "icon": "tribe_mark.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59256,
+   "name": "water plant",
+   "icon": "water_plant.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59257,
+   "name": "fur ball",
+   "icon": "fur_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59258,
+   "name": "hyena tail",
+   "icon": "hyena_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59259,
+   "name": "creepy eye",
+   "icon": "creepy_eye.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 59260,
+   "name": "palm leaves",
+   "icon": "palm_leaves.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 40
+  },
+  {
+   "id": 60598,
+   "name": "Voltage Stone",
+   "icon": "voltage_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60599,
+   "name": "Oceanic Stone",
+   "icon": "oceanic_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60601,
+   "name": "Aqua Stone",
+   "icon": "aqua_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60603,
+   "name": "Razor Stone",
+   "icon": "razor_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60607,
+   "name": "Deep Stone",
+   "icon": "deep_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60609,
+   "name": "Champion Stone",
+   "icon": "champion_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60612,
+   "name": "Aroma Stone",
+   "icon": "aroma_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60613,
+   "name": "Blazing Stone",
+   "icon": "blazing_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60614,
+   "name": "Insect Stone",
+   "icon": "insect_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60617,
+   "name": "Flower Stone",
+   "icon": "flower_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60618,
+   "name": "Blackfyre Stone",
+   "icon": "blackfyre_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60619,
+   "name": "Tortoise Stone",
+   "icon": "tortoise_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60620,
+   "name": "Pixie Stone",
+   "icon": "pixie_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60624,
+   "name": "Zephyr Stone",
+   "icon": "zephyr_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 60625,
+   "name": "Skull Stone",
+   "icon": "skull_stone.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Pedra de evolução de Pokémon shiny. Dropa apenas dos shinys da própria linha"
+  },
+  {
+   "id": 63605,
+   "name": "Talon",
+   "icon": "talon.png",
+   "category": "loot",
+   "npcPrice": 1000,
+   "priceGold": 0,
+   "description": ""
+  },
+  {
+   "id": 64809,
+   "name": "Wild Chilan Berry",
+   "icon": "/assets/items/berry_chilan_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Normal (10% de redução)"
+  },
+  {
+   "id": 64810,
+   "name": "Wild Babiri Berry",
+   "icon": "/assets/items/berry_babiri_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Aço (10% de redução)"
+  },
+  {
+   "id": 64811,
+   "name": "Wild Colbur Berry",
+   "icon": "/assets/items/berry_colbur_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Noturno (10% de redução)"
+  },
+  {
+   "id": 64812,
+   "name": "Wild Haban Berry",
+   "icon": "/assets/items/berry_haban_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Dragão (10% de redução)"
+  },
+  {
+   "id": 64813,
+   "name": "Wild Kasib Berry",
+   "icon": "/assets/items/berry_kasib_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Fantasma (10% de redução)"
+  },
+  {
+   "id": 64814,
+   "name": "Wild Charti Berry",
+   "icon": "/assets/items/berry_charti_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Pedra (10% de redução)"
+  },
+  {
+   "id": 64815,
+   "name": "Wild Tanga Berry",
+   "icon": "/assets/items/berry_tanga_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Inseto (10% de redução)"
+  },
+  {
+   "id": 64816,
+   "name": "Wild Payapa Berry",
+   "icon": "/assets/items/berry_payapa_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Psíquico (10% de redução)"
+  },
+  {
+   "id": 64817,
+   "name": "Wild Coba Berry",
+   "icon": "/assets/items/berry_coba_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Voador (10% de redução)"
+  },
+  {
+   "id": 64818,
+   "name": "Wild Shuca Berry",
+   "icon": "/assets/items/berry_shuca_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Terra (10% de redução)"
+  },
+  {
+   "id": 64819,
+   "name": "Wild Kebia Berry",
+   "icon": "/assets/items/berry_kebia_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Veneno (10% de redução)"
+  },
+  {
+   "id": 64820,
+   "name": "Wild Chople Berry",
+   "icon": "/assets/items/berry_chople_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Lutador (10% de redução)"
+  },
+  {
+   "id": 64821,
+   "name": "Wild Yache Berry",
+   "icon": "/assets/items/berry_yache_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Gelo (10% de redução)"
+  },
+  {
+   "id": 64822,
+   "name": "Wild Rindo Berry",
+   "icon": "/assets/items/berry_rindo_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Planta (10% de redução)"
+  },
+  {
+   "id": 64823,
+   "name": "Wild Wacan Berry",
+   "icon": "/assets/items/berry_wacan_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Elétrico (10% de redução)"
+  },
+  {
+   "id": 64824,
+   "name": "Wild Passho Berry",
+   "icon": "/assets/items/berry_passho_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Água (10% de redução)"
+  },
+  {
+   "id": 64825,
+   "name": "Wild Occa Berry",
+   "icon": "/assets/items/berry_occa_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Fogo (10% de redução)"
+  },
+  {
+   "id": 64826,
+   "name": "Wild Roseli Berry",
+   "icon": "/assets/items/berry_roseli_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Fada (10% de redução)"
+  },
+  {
+   "id": 64830,
+   "name": "Wild Kee Berry",
+   "icon": "/assets/items/berry_kee_wild.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz FORTEMENTE o dano sofrido de golpes do tipo Neutro (10% de redução)"
+  },
+  {
+   "id": 64831,
+   "name": "Chilan Berry",
+   "icon": "/assets/items/berry_chilan.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Normal (5% de redução)"
+  },
+  {
+   "id": 64832,
+   "name": "Babiri Berry",
+   "icon": "/assets/items/berry_babiri.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Aço (5% de redução)"
+  },
+  {
+   "id": 64833,
+   "name": "Colbur Berry",
+   "icon": "/assets/items/berry_colbur.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Noturno (5% de redução)"
+  },
+  {
+   "id": 64834,
+   "name": "Haban Berry",
+   "icon": "/assets/items/berry_haban.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Dragão (5% de redução)"
+  },
+  {
+   "id": 64835,
+   "name": "Kasib Berry",
+   "icon": "/assets/items/berry_kasib.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Fantasma (5% de redução)"
+  },
+  {
+   "id": 64836,
+   "name": "Charti Berry",
+   "icon": "/assets/items/berry_charti.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Pedra (5% de redução)"
+  },
+  {
+   "id": 64837,
+   "name": "Tanga Berry",
+   "icon": "/assets/items/berry_tanga.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Inseto (5% de redução)"
+  },
+  {
+   "id": 64838,
+   "name": "Payapa Berry",
+   "icon": "/assets/items/berry_payapa.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Psíquico (5% de redução)"
+  },
+  {
+   "id": 64839,
+   "name": "Coba Berry",
+   "icon": "/assets/items/berry_coba.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Voador (5% de redução)"
+  },
+  {
+   "id": 64840,
+   "name": "Shuca Berry",
+   "icon": "/assets/items/berry_shuca.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Terra (5% de redução)"
+  },
+  {
+   "id": 64841,
+   "name": "Kebia Berry",
+   "icon": "/assets/items/berry_kebia.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Veneno (5% de redução)"
+  },
+  {
+   "id": 64842,
+   "name": "Chople Berry",
+   "icon": "/assets/items/berry_chople.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Lutador (5% de redução)"
+  },
+  {
+   "id": 64843,
+   "name": "Yache Berry",
+   "icon": "/assets/items/berry_yache.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Gelo (5% de redução)"
+  },
+  {
+   "id": 64844,
+   "name": "Rindo Berry",
+   "icon": "/assets/items/berry_rindo.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Planta (5% de redução)"
+  },
+  {
+   "id": 64845,
+   "name": "Wacan Berry",
+   "icon": "/assets/items/berry_wacan.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Elétrico (5% de redução)"
+  },
+  {
+   "id": 64846,
+   "name": "Passho Berry",
+   "icon": "/assets/items/berry_passho.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Água (5% de redução)"
+  },
+  {
+   "id": 64847,
+   "name": "Occa Berry",
+   "icon": "/assets/items/berry_occa.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Fogo (5% de redução)"
+  },
+  {
+   "id": 64848,
+   "name": "Roseli Berry",
+   "icon": "/assets/items/berry_roseli.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Fada (5% de redução)"
+  },
+  {
+   "id": 64849,
+   "name": "Kee Berry",
+   "icon": "/assets/items/berry_kee.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Reduz o dano sofrido de golpes do tipo Neutro (5% de redução)"
+  },
+  {
+   "id": 64850,
+   "name": "Rovia Berry",
+   "icon": "/assets/items/berry_rovia.png",
+   "category": "berry",
+   "rare": false,
+   "npcPrice": 0,
+   "description": "Aumenta a cura recebida de todas as poções usadas neste Pokémon (+40% de cura)"
+  },
+  {
+   "id": 70000,
+   "name": "Bronze Boss Token",
+   "icon": "/assets/items/bronze_boss_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 250000,
+   "description": "Um medalhão de bronze cravejado que pulsa com a energia dos chefes do Outland. Colecionadores pagam caro por ele"
+  },
+  {
+   "id": 13115,
+   "name": "Devoted Token",
+   "icon": "/assets/items/devoted_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um emblema concedido a treinadores devotos que cumprem seus desafios diários. EM BREVE poderá ser trocado por HELD ITEMS"
+  },
+  {
+   "id": 13114,
+   "name": "Mighty Token",
+   "icon": "/assets/items/mighty_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um emblema reservado aos treinadores mais fortes. Só quem enfrenta desafios à altura consegue um"
+  },
+  {
+   "id": 13113,
+   "name": "Honored Token",
+   "icon": "/assets/items/honored_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um emblema de honra entregue a quem se destaca nos desafios diários"
+  },
+  {
+   "id": 20430,
+   "name": "Catcher Token",
+   "icon": "/assets/items/catcher_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um emblema de captura, entregue a treinadores que provam sua habilidade com Pokébolas"
+  },
+  {
+   "id": 20630,
+   "name": "Superior Catcher Token",
+   "icon": "/assets/items/superior_catcher_token.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "A versão superior do emblema de captura, reservada aos capturadores mais completos"
+  },
+  {
+   "id": 21287,
+   "name": "Bronze Dimensional Key",
+   "icon": "/assets/items/bronze_dimensional_key.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma chave de bronze que ressoa com fendas dimensionais. SERÁ USADA FUTURAMENTE nas dungeons de bronze"
+  },
+  {
+   "id": 21288,
+   "name": "Silver Dimensional Key",
+   "icon": "/assets/items/silver_dimensional_key.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma chave de prata que vibra perto de fendas dimensionais. Abre passagens que a de bronze não alcança"
+  },
+  {
+   "id": 21289,
+   "name": "Golden Dimensional Key",
+   "icon": "/assets/items/golden_dimensional_key.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Uma chave dourada saturada de energia dimensional. A mais rara das três — poucas portas resistem a ela"
+  },
+  {
+   "id": 13118,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13143,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13168,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13193,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13218,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13243,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13268,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 27757,
+   "name": "X-Attack",
+   "icon": "/assets/items/held_x_attack_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16832,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16833,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16834,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16835,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16836,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16837,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 16838,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 30148,
+   "name": "X-Block",
+   "icon": "/assets/items/held_x_block_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13128,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13153,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13178,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13203,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13228,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13253,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13278,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90201,
+   "name": "X-Boost",
+   "icon": "/assets/items/held_x_boost_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13139,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13164,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13189,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13214,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13239,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13264,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13289,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 27778,
+   "name": "X-Critical",
+   "icon": "/assets/items/held_x_critical_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13117,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13142,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13167,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13192,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13217,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13242,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13267,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 27756,
+   "name": "X-Defense",
+   "icon": "/assets/items/held_x_defense_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13135,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13160,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13185,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13210,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13235,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13260,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13285,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90202,
+   "name": "X-Elemental",
+   "icon": "/assets/items/held_x_elemental_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13119,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13144,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13169,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13194,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13219,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13244,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13269,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90203,
+   "name": "X-Experience",
+   "icon": "/assets/items/held_x_experience_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13120,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13145,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13170,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13195,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13220,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13245,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13270,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90204,
+   "name": "X-Hellfire",
+   "icon": "/assets/items/held_x_hellfire_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13129,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13154,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13179,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13204,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13229,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13254,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13279,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90205,
+   "name": "X-Lucky",
+   "icon": "/assets/items/held_x_lucky_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13133,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13158,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13183,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13208,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13233,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13258,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13283,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90206,
+   "name": "X-Poison",
+   "icon": "/assets/items/held_x_poison_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13124,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13149,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13174,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13199,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13224,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13249,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13274,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90207,
+   "name": "Y-Regeneration",
+   "icon": "/assets/items/held_y_regeneration_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13136,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t1.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13161,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t2.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13186,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t3.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13211,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t4.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13236,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t5.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13261,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t6.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 13286,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t7.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90208,
+   "name": "X-Vitality",
+   "icon": "/assets/items/held_x_vitality_t8.png",
+   "category": "held",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 26173,
+   "name": "Damson Shard",
+   "icon": "damson_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 17344,
+   "name": "Shell Shard",
+   "icon": "shell_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 17341,
+   "name": "Scarlet Shard",
+   "icon": "scarlet_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 17342,
+   "name": "Sunflower Shard",
+   "icon": "sunflower_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 21874,
+   "name": "Raibolt Essence",
+   "icon": "raibolt_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000
+  },
+  {
+   "id": 21869,
+   "name": "Volcanic Essence",
+   "icon": "volcanic_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000
+  },
+  {
+   "id": 21880,
+   "name": "Wingeon Essence",
+   "icon": "wingeon_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000
+  },
+  {
+   "id": 26019,
+   "name": "Toxic Gosme",
+   "icon": "toxic_gosme.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 26022,
+   "name": "Razor Claw",
+   "icon": "razor_claw.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 37500
+  },
+  {
+   "id": 38249,
+   "name": "Purple Shell",
+   "icon": "purple_shell.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 38250,
+   "name": "Green Hair",
+   "icon": "green_hair.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 38232,
+   "name": "Curly Pig Tail",
+   "icon": "curly_pig_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 38236,
+   "name": "Small Bird Beak",
+   "icon": "small_bird_beak.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 38226,
+   "name": "Corrupted Champion Belt",
+   "icon": "corrupted_champion_belt.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 38255,
+   "name": "Corrupted Dragon Tooth",
+   "icon": "corrupted_dragon_tooth.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 38246,
+   "name": "Corrupted Ice Piece",
+   "icon": "corrupted_ice_piece.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 38254,
+   "name": "Corrupted Magnet",
+   "icon": "corrupted_magnet.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 39350,
+   "name": "Corrupted Pot of Lava",
+   "icon": "corrupted_pot_of_lava.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 11541,
+   "name": "Cat Ear",
+   "icon": "cat_ear.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 123
+  },
+  {
+   "id": 53782,
+   "name": "Black Lucky Charm",
+   "icon": "black_lucky_charm.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 26020,
+   "name": "Black Wool Ball",
+   "icon": "black_wool_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 65173,
+   "name": "Blue Ghost Candle",
+   "icon": "blue_ghost_candle.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25647,
+   "name": "Cave Nail",
+   "icon": "cave_nail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 37633,
+   "name": "Centipede Armor",
+   "icon": "centipede_armor.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 39772,
+   "name": "Corrupted Streak Tail",
+   "icon": "corrupted_streak_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 321,
+   "name": "Dragon Slime",
+   "icon": "dragon_slime.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 25111,
+   "name": "Electric Fish Tail",
+   "icon": "electric_fish_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 45000
+  },
+  {
+   "id": 25663,
+   "name": "Elefish Fin",
+   "icon": "elefish_fin.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 55165,
+   "name": "Feline Fur",
+   "icon": "feline_fur.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25640,
+   "name": "Gear Nose",
+   "icon": "gear_nose.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 31000
+  },
+  {
+   "id": 53773,
+   "name": "Ice Crystal",
+   "icon": "ice_crystal.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 17345,
+   "name": "Indigo Shard",
+   "icon": "indigo_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 21878,
+   "name": "Ironhard Essence",
+   "icon": "ironhard_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000
+  },
+  {
+   "id": 31563,
+   "name": "Kite Antenna",
+   "icon": "kite_antenna.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 132
+  },
+  {
+   "id": 25651,
+   "name": "Land Shark Horn",
+   "icon": "land_shark_horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25643,
+   "name": "Mole Hair",
+   "icon": "mole_hair.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 37323,
+   "name": "Moon Piece",
+   "icon": "moon_piece.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25661,
+   "name": "Mount Horn",
+   "icon": "mount_horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 53000
+  },
+  {
+   "id": 21879,
+   "name": "Orebound Essence",
+   "icon": "orebound_essence.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 1000
+  },
+  {
+   "id": 39353,
+   "name": "Petite Leaves",
+   "icon": "petite_leaves.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 23108,
+   "name": "Pile Of Seeds",
+   "icon": "pile_of_seeds.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 50
+  },
+  {
+   "id": 25658,
+   "name": "Royal Mane",
+   "icon": "royal_mane.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 39348,
+   "name": "Sand Pouch",
+   "icon": "sand_pouch.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25642,
+   "name": "Savage Fin",
+   "icon": "savage_fin.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 17340,
+   "name": "Slate Shard",
+   "icon": "slate_shard.png",
+   "category": "loot",
+   "rare": true,
+   "npcPrice": 150000
+  },
+  {
+   "id": 289,
+   "name": "Small Eagle Feather",
+   "icon": "small_eagle_feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 2500
+  },
+  {
+   "id": 25925,
+   "name": "Solid Head",
+   "icon": "solid_head.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 31000
+  },
+  {
+   "id": 37324,
+   "name": "Sun Piece",
+   "icon": "sun_piece.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25641,
+   "name": "Whiskers Fin",
+   "icon": "whiskers_fin.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 38243,
+   "name": "White Hair",
+   "icon": "white_hair.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 54794,
+   "name": "Wolf Tail",
+   "icon": "wolf_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 38251,
+   "name": "Corrupted Doll Star",
+   "icon": "corrupted_doll_star.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25108,
+   "name": "Alolan Electric Rat Tail",
+   "icon": "alolan_electric_rat_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 45000
+  },
+  {
+   "id": 25664,
+   "name": "Bagworm Green Leaves",
+   "icon": "bagworm_green_leaves.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 299,
+   "name": "Big Eagle Feather",
+   "icon": "big_eagle_feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 53772,
+   "name": "Big Ice Ball",
+   "icon": "big_ice_ball.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25652,
+   "name": "Big Mount Horn",
+   "icon": "big_mount_horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 66500
+  },
+  {
+   "id": 25648,
+   "name": "Blade Horn",
+   "icon": "blade_horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 180000
+  },
+  {
+   "id": 38242,
+   "name": "Brown Ear",
+   "icon": "brown_ear.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25109,
+   "name": "Catfish Tail",
+   "icon": "catfish_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 45000
+  },
+  {
+   "id": 25110,
+   "name": "Catfish Whiskers",
+   "icon": "catfish_whiskers.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 66500
+  },
+  {
+   "id": 39354,
+   "name": "Corrupted Black Hull",
+   "icon": "corrupted_black_hull.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 37640,
+   "name": "Corrupted Feather",
+   "icon": "corrupted_feather.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 37642,
+   "name": "Corrupted Gem Star",
+   "icon": "corrupted_gem_star.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 37639,
+   "name": "Corrupted Lizard Tail",
+   "icon": "corrupted_lizard_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 38253,
+   "name": "Corrupted Miss Trace",
+   "icon": "corrupted_miss_trace.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 39351,
+   "name": "Corrupted Pinsir Horn",
+   "icon": "corrupted_pinsir_horn.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 39349,
+   "name": "Corrupted Poisonous Tail",
+   "icon": "corrupted_poisonous_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 39352,
+   "name": "Corrupted Steelix Tail",
+   "icon": "corrupted_steelix_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 38256,
+   "name": "Corrupted Tree Branch",
+   "icon": "corrupted_tree_branch.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 38252,
+   "name": "Corrupted Vines",
+   "icon": "corrupted_vines.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 90123,
+   "name": "Dragon Goo",
+   "icon": "dragon_goo.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 25112,
+   "name": "Fire Monkey Hair",
+   "icon": "fire_monkey_hair.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25654,
+   "name": "Flame Tail",
+   "icon": "flame_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 180000
+  },
+  {
+   "id": 53899,
+   "name": "Flower Hat",
+   "icon": "flower_hat.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 38247,
+   "name": "Frosty Hand",
+   "icon": "frosty_hand.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25655,
+   "name": "Gleam Tail",
+   "icon": "gleam_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 180000
+  },
+  {
+   "id": 25649,
+   "name": "Mach Nail",
+   "icon": "mach_nail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 53000
+  },
+  {
+   "id": 25644,
+   "name": "Mole Big Hair",
+   "icon": "mole_big_hair.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 66500
+  },
+  {
+   "id": 38245,
+   "name": "Red Spike",
+   "icon": "red_spike.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 4500
+  },
+  {
+   "id": 25639,
+   "name": "Remains of Gears",
+   "icon": "remains_of_gears.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 66500
+  },
+  {
+   "id": 25657,
+   "name": "Royal Tail",
+   "icon": "royal_tail.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 66500
+  },
+  {
+   "id": 54824,
+   "name": "Slice of Apple",
+   "icon": "slice_of_apple.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 3500
+  },
+  {
+   "id": 54829,
+   "name": "Sweet Apple Pie",
+   "icon": "sweet_apple_pie.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 8000
+  },
+  {
+   "id": 14924,
+   "name": "Titanium Imam",
+   "icon": "titanium_imam.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 10000
+  },
+  {
+   "id": 64058,
+   "name": "Yellow Eyebrows",
+   "icon": "yellow_eyebrows.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 6000
+  },
+  {
+   "id": 25666,
+   "name": "Bagworm Stone",
+   "icon": "bagworm_stone.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 45000
+  },
+  {
+   "id": 25665,
+   "name": "Bagworm Pink Leaves",
+   "icon": "bagworm_pink_leaves.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 45000
+  },
+  {
+   "id": 25660,
+   "name": "Brutal Fin",
+   "icon": "brutal_fin.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 31000
+  },
+  {
+   "id": 40405,
+   "name": "Leek Lance",
+   "icon": "leek_lance.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 25000
+  },
+  {
+   "id": 40400,
+   "name": "Leek Shield",
+   "icon": "leek_shield.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 25000
+  },
+  {
+   "id": 14876,
+   "name": "Data UFO",
+   "icon": "data_ufo.png",
+   "category": "loot",
+   "rare": false,
+   "npcPrice": 0
+  },
+  {
+   "id": 90124,
+   "name": "Rare Candy",
+   "icon": "/assets/items/rare_candy.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Doce raríssimo: dá ao Pokémon exatamente a experiência que falta para o próximo nível. Só em Pokémon do time. Não pode ser vendido, trocado nem depositado no baú da família."
+  },
+  {
+   "id": 90125,
+   "name": "Borage Flower",
+   "icon": "/assets/items/borage_flower.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Flor cuja essência atrai Pokémon Shiny: por 2 horas, a chance de aparecer um shiny nas suas hunts fica muito maior. Não pode ser usada junto com a Shiny Secret Lure. Não pode ser vendida, trocada nem depositada no baú da família."
+  },
+  {
+   "id": 90126,
+   "name": "Poke Slot Card",
+   "icon": "/assets/items/poke_golden_card.png",
+   "category": "misc",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Carta dourada da Poke Slot Machine: gasta 1 para rolar/rerolar um slot (ou 5 para abrir um slot por 24h). Nominal: não pode ser vendida, trocada nem depositada no baú da família."
+  },
+  {
+   "id": 6352,
+   "name": "Poke Card Pack",
+   "icon": "/assets/items/poke_card_pack.png",
+   "category": "pokecard",
+   "rare": true,
+   "npcPrice": 0,
+   "description": "Um pacote lacrado com UMA Poke Card aleatória. Duplo-clique na mochila para abrir: a carta é revelada e vai direto pro seu Poke Card Album. Cartas repetidas somam no mesmo slot (x2, x3…). Drop raro de QUALQUER Pokémon selvagem; o Pokemaniac Trader também vende por 1.000.000 de ouro."
+  }
+ ]
+}
