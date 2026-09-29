@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff4b4b"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="whiteGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <!-- Contorno externo -->
+  <circle cx="50" cy="50" r="47" fill="#0f172a" stroke="#020617" stroke-width="2"/>
+  <!-- Metade superior vermelha -->
+  <path d="M 50,7 A 43,43 0 0,1 93,50 L 7,50 A 43,43 0 0,1 50,7 Z" fill="url(#redGrad)"/>
+  <!-- Metade inferior branca -->
+  <path d="M 93,50 A 43,43 0 0,1 50,93 A 43,43 0 0,1 7,50 Z" fill="url(#whiteGrad)"/>
+  <!-- Brilho no topo -->
+  <ellipse cx="38" cy="20" rx="14" ry="7" fill="#ffffff" opacity="0.3" transform="rotate(-20 38 20)"/>
+  <!-- Faixa central preta -->
+  <rect x="7" y="46" width="86" height="8" fill="#0f172a"/>
+  <!-- Botão central -->
+  <circle cx="50" cy="50" r="16" fill="#0f172a"/>
+  <circle cx="50" cy="50" r="11" fill="url(#whiteGrad)"/>
+  <circle cx="50" cy="50" r="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>
