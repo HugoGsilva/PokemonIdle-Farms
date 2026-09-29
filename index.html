@@ -554,6 +554,110 @@
             white-space: nowrap;
         }
 
+        .sortable-th {
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.15s, color 0.15s;
+        }
+
+        .sortable-th:hover {
+            background-color: #1e293b !important;
+            color: #f8fafc !important;
+        }
+
+        .sortable-th.active-sort {
+            color: #38bdf8 !important;
+            background-color: rgba(56, 189, 248, 0.08) !important;
+        }
+
+        .sort-icon {
+            display: inline-flex;
+            align-items: center;
+            font-size: 10px;
+            margin-left: 6px;
+            padding: 2px 5px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-dim);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            font-weight: 600;
+        }
+
+        .sortable-th.active-sort .sort-icon {
+            background: rgba(56, 189, 248, 0.2);
+            color: #38bdf8;
+            border-color: #38bdf8;
+        }
+
+        .table-header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .quick-search-box {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            color: var(--text-main);
+            width: 220px;
+        }
+
+        .quick-search-box input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            width: 100%;
+            font-size: 12px;
+        }
+
+        .quick-search-box input::placeholder {
+            color: var(--text-dim);
+        }
+
+        .sort-btn-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .sort-toggle-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sort-toggle-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .sort-toggle-btn.active {
+            background: rgba(56, 189, 248, 0.15);
+            color: #38bdf8;
+            border-color: #38bdf8;
+        }
+
         table.farm-table td {
             padding: 12px 14px;
             border-bottom: 1px solid var(--border);
@@ -694,22 +798,47 @@
             <div class="podium-grid" id="podiumGrid"></div>
         </div>
 
-        <!-- Tabela Completa -->
-        <div class="section-title">📋 Lista Completa de Alvos</div>
+        <!-- Tabela Completa com Filtro e Ordenação A-Z -->
+        <div class="table-header-controls">
+            <div class="section-title" style="margin-bottom: 0;">📋 Lista Completa de Alvos <span id="tableCountBadge" style="font-size: 13px; color: var(--text-dim); font-weight: normal; margin-left: 6px;"></span></div>
+            <div class="sort-btn-group">
+                <button type="button" class="sort-toggle-btn" id="btnSortAZ" onclick="toggleSortAZ()" title="Alternar ordenação alfabética (A-Z / Z-A)">
+                    <span>🔤</span> <span id="btnSortAZLabel">Ordenar A-Z</span>
+                </button>
+                <button type="button" class="sort-toggle-btn" id="btnResetSort" onclick="resetSortToDefault()" style="display: none;" title="Restaurar ordenação por Eficiência">
+                    <span>🔄</span> Eficiência Padrão
+                </button>
+                <div class="quick-search-box">
+                    <span>🔍</span>
+                    <input type="text" id="targetFilterInput" placeholder="Filtrar por nome..." oninput="handleTargetFilter()">
+                </div>
+            </div>
+        </div>
+
         <div class="table-responsive">
             <table class="farm-table" id="resultsTable">
                 <thead>
                     <tr>
                         <th style="width: 40px;">#</th>
-                        <th>Pokémon Alvo</th>
-                        <th>Hunt Level</th>
-                        <th>HP</th>
+                        <th class="sortable-th" id="thPokeName" onclick="handleSortClick('name')" title="Clique para ordenar de A-Z ou Z-A">
+                            Pokémon Alvo <span class="sort-icon" id="sortIconName">A-Z ⇅</span>
+                        </th>
+                        <th class="sortable-th" id="thHuntLevel" onclick="handleSortClick('huntLevel')" title="Clique para ordenar por Hunt Level">
+                            Hunt Level <span class="sort-icon" id="sortIconHuntLevel">⇅</span>
+                        </th>
+                        <th class="sortable-th" id="thHp" onclick="handleSortClick('hp')" title="Clique para ordenar por HP">
+                            HP <span class="sort-icon" id="sortIconHp">⇅</span>
+                        </th>
                         <th id="thDefesa">Defesa Alvo</th>
                         <th id="thSkill">Habilidade Usada</th>
-                        <th>XP Bruto</th>
+                        <th class="sortable-th" id="thXp" onclick="handleSortClick('xp')" title="Clique para ordenar por XP Bruto">
+                            XP Bruto <span class="sort-icon" id="sortIconXp">⇅</span>
+                        </th>
                         <th id="thVantagem">Você Causa</th>
                         <th id="thRecebe">Você Recebe</th>
-                        <th style="text-align: right;">Eficiência</th>
+                        <th class="sortable-th" id="thEfficiency" onclick="handleSortClick('score')" style="text-align: right;" title="Clique para ordenar por Eficiência">
+                            Eficiência <span class="sort-icon" id="sortIconScore">⇅</span>
+                        </th>
                     </tr>
                 </thead>
                 <tbody></tbody>
@@ -1056,7 +1185,7 @@
         thDefesa.style.display = myPoke ? '' : 'none';
         if (thSkill) thSkill.style.display = myPoke ? '' : 'none';
 
-        // Render Top 3 Podium
+        // Render Top 3 Podium (sempre os melhores em eficiência)
         const top3 = results.slice(0, 3);
         const rankLabels = ['👑 1º Lugar', '🥈 2º Lugar', '🥉 3º Lugar'];
         top3.forEach((r, idx) => {
@@ -1104,9 +1233,159 @@
             podiumGrid.appendChild(card);
         });
 
-        // Render Table (Top 25)
-        const topTable = results.slice(0, 25);
-        topTable.forEach((r, idx) => {
+        // Salva alvos calculados e renderiza a tabela com filtros/ordenação
+        currentFarmResults = [...results];
+        renderFilteredTable();
+
+        section.style.display = 'block';
+    }
+
+    // Variáveis globais de controle da tabela
+    let currentFarmResults = [];
+    let currentSort = { column: 'default', direction: 'none' };
+    let currentSearchTerm = '';
+
+    function handleSortClick(column) {
+        if (!currentFarmResults || currentFarmResults.length === 0) return;
+
+        if (currentSort.column === column) {
+            if (currentSort.direction === 'asc') {
+                currentSort.direction = 'desc';
+            } else if (currentSort.direction === 'desc') {
+                currentSort = { column: 'default', direction: 'none' };
+            } else {
+                currentSort.direction = 'asc';
+            }
+        } else {
+            currentSort.column = column;
+            currentSort.direction = (column === 'name') ? 'asc' : 'desc';
+        }
+        renderFilteredTable();
+    }
+
+    function toggleSortAZ() {
+        if (!currentFarmResults || currentFarmResults.length === 0) return;
+
+        if (currentSort.column === 'name' && currentSort.direction === 'asc') {
+            currentSort = { column: 'name', direction: 'desc' };
+        } else if (currentSort.column === 'name' && currentSort.direction === 'desc') {
+            currentSort = { column: 'default', direction: 'none' };
+        } else {
+            currentSort = { column: 'name', direction: 'asc' };
+        }
+        renderFilteredTable();
+    }
+
+    function resetSortToDefault() {
+        currentSort = { column: 'default', direction: 'none' };
+        currentSearchTerm = '';
+        const input = document.getElementById('targetFilterInput');
+        if (input) input.value = '';
+        renderFilteredTable();
+    }
+
+    function handleTargetFilter() {
+        const input = document.getElementById('targetFilterInput');
+        currentSearchTerm = input ? input.value : '';
+        renderFilteredTable();
+    }
+
+    function updateSortIndicators() {
+        const btnAZ = document.getElementById('btnSortAZ');
+        const btnAZLabel = document.getElementById('btnSortAZLabel');
+        const btnReset = document.getElementById('btnResetSort');
+
+        if (btnAZ && btnAZLabel) {
+            if (currentSort.column === 'name' && currentSort.direction === 'asc') {
+                btnAZ.classList.add('active');
+                btnAZLabel.innerText = 'A → Z (Ativo)';
+            } else if (currentSort.column === 'name' && currentSort.direction === 'desc') {
+                btnAZ.classList.add('active');
+                btnAZLabel.innerText = 'Z → A (Ativo)';
+            } else {
+                btnAZ.classList.remove('active');
+                btnAZLabel.innerText = 'Ordenar A-Z';
+            }
+        }
+
+        if (btnReset) {
+            const isCustom = currentSort.column !== 'default' || (currentSearchTerm && currentSearchTerm.trim().length > 0);
+            btnReset.style.display = isCustom ? 'inline-flex' : 'none';
+        }
+
+        const headers = [
+            { id: 'thPokeName', iconId: 'sortIconName', col: 'name', defaultText: 'A-Z ⇅' },
+            { id: 'thHuntLevel', iconId: 'sortIconHuntLevel', col: 'huntLevel', defaultText: '⇅' },
+            { id: 'thHp', iconId: 'sortIconHp', col: 'hp', defaultText: '⇅' },
+            { id: 'thXp', iconId: 'sortIconXp', col: 'xp', defaultText: '⇅' },
+            { id: 'thEfficiency', iconId: 'sortIconScore', col: 'score', defaultText: '⇅' }
+        ];
+
+        headers.forEach(h => {
+            const thEl = document.getElementById(h.id);
+            const iconEl = document.getElementById(h.iconId);
+            if (!thEl || !iconEl) return;
+
+            if (currentSort.column === h.col) {
+                thEl.classList.add('active-sort');
+                if (h.col === 'name') {
+                    iconEl.innerText = currentSort.direction === 'asc' ? 'A → Z ▲' : 'Z → A ▼';
+                } else {
+                    iconEl.innerText = currentSort.direction === 'asc' ? '▲' : '▼';
+                }
+            } else {
+                thEl.classList.remove('active-sort');
+                iconEl.innerText = h.defaultText;
+            }
+        });
+    }
+
+    function renderFilteredTable() {
+        if (!currentFarmResults || currentFarmResults.length === 0) return;
+
+        let list = [...currentFarmResults];
+
+        // Filtro por texto
+        if (currentSearchTerm && currentSearchTerm.trim()) {
+            const term = currentSearchTerm.trim().toLowerCase();
+            list = list.filter(r => r.name.toLowerCase().includes(term));
+        }
+
+        // Ordenação
+        if (currentSort.column === 'name') {
+            list.sort((a, b) => {
+                const cmp = a.name.localeCompare(b.name);
+                return currentSort.direction === 'desc' ? -cmp : cmp;
+            });
+        } else if (currentSort.column === 'huntLevel') {
+            list.sort((a, b) => currentSort.direction === 'desc' ? b.huntLevel - a.huntLevel : a.huntLevel - b.huntLevel);
+        } else if (currentSort.column === 'hp') {
+            list.sort((a, b) => currentSort.direction === 'desc' ? b.hp - a.hp : a.hp - b.hp);
+        } else if (currentSort.column === 'xp') {
+            list.sort((a, b) => currentSort.direction === 'desc' ? b.xp - a.xp : a.xp - b.xp);
+        } else if (currentSort.column === 'score') {
+            list.sort((a, b) => currentSort.direction === 'desc' ? b.score - a.score : a.score - b.score);
+        }
+
+        updateSortIndicators();
+
+        const countBadge = document.getElementById('tableCountBadge');
+        if (countBadge) {
+            countBadge.innerText = `(${list.length} alvos)`;
+        }
+
+        const tbody = document.querySelector('#resultsTable tbody');
+        tbody.innerHTML = '';
+
+        if (list.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; padding:24px; color:var(--text-dim);">Nenhum Pokémon encontrado com o termo pesquisado.</td></tr>`;
+            return;
+        }
+
+        const myPokeVal = document.getElementById('pokemonName').value.trim();
+        const myPoke = creaturesList.find(c => c.name.toLowerCase() === myPokeVal.toLowerCase());
+
+        list.forEach((r, idx) => {
             const tr = document.createElement('tr');
             const sprite = getSpriteUrl(r.pokeId, r.name);
             tr.innerHTML = `
@@ -1131,8 +1410,6 @@
             `;
             tbody.appendChild(tr);
         });
-
-        section.style.display = 'block';
     }
 
     window.addEventListener('DOMContentLoaded', init);
