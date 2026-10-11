@@ -889,9 +889,14 @@
         return eff1 * eff2;
     }
 
-    function getSpriteUrl(pokeId, name) {
-        if (pokeId && pokeId > 0 && pokeId <= 1025) {
-            return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokeId}.png`;
+    function getSpriteUrl(pokeId, name, captureBase) {
+        const id = (captureBase && captureBase > 0 && captureBase <= 1025)
+            ? captureBase
+            : (pokeId && pokeId > 0 && pokeId <= 1025
+                ? pokeId
+                : (pokeId >= 14000 && pokeId < 15000 ? pokeId - 14000 : null));
+        if (id && id > 0 && id <= 1025) {
+            return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
         }
         return '';
     }
@@ -993,7 +998,7 @@
 
         const isPhysical = poke.baseAtk > poke.baseSpAtk;
         const img = document.getElementById('activePokeImg');
-        const sprite = getSpriteUrl(poke.pokeId, poke.name);
+        const sprite = getSpriteUrl(poke.pokeId, poke.name, poke.captureBase);
         if (sprite) {
             img.src = sprite;
             img.style.display = 'block';
@@ -1118,6 +1123,8 @@
 
                 results.push({
                     pokeId: enemy.pokeId,
+                    captureBase: enemy.captureBase,
+                    area: enemy.area,
                     name: enemy.name,
                     type1: enemy.type1,
                     type2: enemy.type2,
@@ -1137,6 +1144,8 @@
                 const score = (enemy.experience * 10) / (enemy.baseHp || 1);
                 results.push({
                     pokeId: enemy.pokeId,
+                    captureBase: enemy.captureBase,
+                    area: enemy.area,
                     name: enemy.name,
                     type1: enemy.type1,
                     type2: enemy.type2,
@@ -1192,13 +1201,13 @@
         top3.forEach((r, idx) => {
             const card = document.createElement('div');
             card.className = `podium-card rank-${idx + 1}`;
-            const sprite = getSpriteUrl(r.pokeId, r.name);
+            const sprite = getSpriteUrl(r.pokeId, r.name, r.captureBase);
             card.innerHTML = `
                 <div class="card-badge-rank">${rankLabels[idx]}</div>
                 <div class="podium-header">
                     <img class="poke-avatar" src="${sprite}" alt="${r.name}" onerror="this.style.display='none'">
                     <div>
-                        <div class="podium-name">${r.name}</div>
+                        <div class="podium-name">${r.name}${r.area ? ` <span style="font-size:10px; font-weight:600; background:rgba(234,179,8,0.2); color:#facc15; padding:1px 5px; border-radius:4px; text-transform:uppercase;">${r.area}</span>` : ''}</div>
                         <div class="podium-hl">Hunt Level ${r.huntLevel}</div>
                         <div style="margin-top:4px;">${renderTypePills(r.type1, r.type2)}</div>
                     </div>
@@ -1388,14 +1397,14 @@
 
         list.forEach((r, idx) => {
             const tr = document.createElement('tr');
-            const sprite = getSpriteUrl(r.pokeId, r.name);
+            const sprite = getSpriteUrl(r.pokeId, r.name, r.captureBase);
             tr.innerHTML = `
                 <td style="color: var(--text-dim); font-family: monospace; font-size: 13px;">${idx + 1}</td>
                 <td>
                     <div class="col-poke">
                         <img class="table-sprite" src="${sprite}" alt="${r.name}" onerror="this.style.display='none'">
                         <div>
-                            <strong style="color:#fff;">${r.name}</strong><br>
+                            <strong style="color:#fff;">${r.name}</strong>${r.area ? ` <span style="font-size:10px; font-weight:600; background:rgba(234,179,8,0.2); color:#facc15; padding:1px 5px; border-radius:4px; text-transform:uppercase;">${r.area}</span>` : ''}<br>
                             ${renderTypePills(r.type1, r.type2)}
                         </div>
                     </div>

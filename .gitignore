@@ -8,3 +8,4 @@ chunks.txt
 get_chunks.js
 fetch_chunks.js
 pokedex.html
+*.backup.json
