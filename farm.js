@@ -121,6 +121,7 @@ for (const enemy of creatures) {
 
     targets.push({
       name: enemy.name,
+      area: enemy.area || '-',
       types: [enemy.type1, enemy.type2].filter(Boolean).join('/'),
       huntLevel: enemy.huntLevel,
       hp: enemy.baseHp,
@@ -136,6 +137,7 @@ for (const enemy of creatures) {
     const score = enemy.experience / (enemy.baseHp || 1);
     targets.push({
       name: enemy.name,
+      area: enemy.area || '-',
       types: [enemy.type1, enemy.type2].filter(Boolean).join('/'),
       huntLevel: enemy.huntLevel,
       hp: enemy.baseHp,
@@ -172,6 +174,7 @@ if (top.length === 0) {
   console.table(top.map((t, idx) => ({
     "#": idx + 1,
     Nome: t.name,
+    Área: t.area,
     Tipos: t.types,
     "Hunt Lvl": t.huntLevel,
     HP: t.hp,

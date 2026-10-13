@@ -131,7 +131,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 2,
@@ -276,7 +277,8 @@
      "cooldownMs": 50000,
      "learnLevel": 31
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 3,
@@ -446,7 +448,8 @@
      "cooldownMs": 50000,
      "learnLevel": 32
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 4,
@@ -558,7 +561,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 5,
@@ -676,7 +680,8 @@
      "cooldownMs": 40000,
      "learnLevel": 54
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 6,
@@ -879,7 +884,8 @@
      "cooldownMs": 40000,
      "learnLevel": 62
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 7,
@@ -999,7 +1005,8 @@
      "cooldownMs": 40000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 8,
@@ -1125,7 +1132,8 @@
      "cooldownMs": 40000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 9,
@@ -1268,7 +1276,8 @@
      "cooldownMs": 50000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 10,
@@ -1340,7 +1349,8 @@
      "cooldownMs": 15000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 11,
@@ -1396,7 +1406,8 @@
      "cooldownMs": 30000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 12,
@@ -1553,7 +1564,8 @@
      "cooldownMs": 22000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 13,
@@ -1632,7 +1644,8 @@
      "cooldownMs": 20000,
      "learnLevel": 15
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 14,
@@ -1695,7 +1708,8 @@
      "cooldownMs": 30000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 15,
@@ -1849,7 +1863,8 @@
      "cooldownMs": 15000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 16,
@@ -1968,7 +1983,8 @@
      "cooldownMs": 40000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 17,
@@ -2099,7 +2115,8 @@
      "cooldownMs": 40000,
      "learnLevel": 62
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 18,
@@ -2267,7 +2284,8 @@
      "cooldownMs": 15000,
      "learnLevel": 22
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 19,
@@ -2395,7 +2413,8 @@
      "cooldownMs": 50000,
      "learnLevel": 31
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 20,
@@ -2537,7 +2556,8 @@
      "cooldownMs": 50000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 21,
@@ -2648,7 +2668,8 @@
      "cooldownMs": 20000,
      "learnLevel": 29
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 22,
@@ -2788,7 +2809,8 @@
      "cooldownMs": 20000,
      "learnLevel": 35
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 23,
@@ -2900,7 +2922,8 @@
      "cooldownMs": 50000,
      "learnLevel": 38
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 24,
@@ -3059,7 +3082,8 @@
      "cooldownMs": 50000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 25,
@@ -3201,7 +3225,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 26,
@@ -3344,7 +3369,8 @@
      "cooldownMs": 60000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 27,
@@ -3488,7 +3514,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 28,
@@ -3655,7 +3682,8 @@
      "cooldownMs": 20000,
      "learnLevel": 28
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 29,
@@ -3759,7 +3787,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 30,
@@ -3869,7 +3898,8 @@
      "cooldownMs": 15000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 31,
@@ -4042,7 +4072,8 @@
      "cooldownMs": 15000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 32,
@@ -4138,7 +4169,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 33,
@@ -4248,7 +4280,8 @@
      "cooldownMs": 15000,
      "learnLevel": 20
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 34,
@@ -4413,7 +4446,8 @@
      "cooldownMs": 15000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 35,
@@ -4555,7 +4589,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 36,
@@ -4689,7 +4724,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 37,
@@ -4831,7 +4867,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 38,
@@ -4996,7 +5033,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 39,
@@ -5131,7 +5169,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 40,
@@ -5282,7 +5321,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 41,
@@ -5425,7 +5465,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 42,
@@ -5574,7 +5615,8 @@
      "cooldownMs": 22000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 43,
@@ -5701,7 +5743,8 @@
      "cooldownMs": 50000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 44,
@@ -5840,7 +5883,8 @@
      "cooldownMs": 50000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 45,
@@ -5996,7 +6040,8 @@
      "cooldownMs": 40000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 46,
@@ -6115,7 +6160,8 @@
      "cooldownMs": 22000,
      "learnLevel": 54
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 47,
@@ -6263,7 +6309,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 48,
@@ -6420,7 +6467,8 @@
      "cooldownMs": 15000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 49,
@@ -6608,7 +6656,8 @@
      "cooldownMs": 15000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 50,
@@ -6750,7 +6799,8 @@
      "cooldownMs": 40000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 51,
@@ -6925,7 +6975,8 @@
      "cooldownMs": 20000,
      "learnLevel": 28
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 52,
@@ -7059,7 +7110,8 @@
      "cooldownMs": 15000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 53,
@@ -7209,7 +7261,8 @@
      "cooldownMs": 15000,
      "learnLevel": 65
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 54,
@@ -7321,7 +7374,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 55,
@@ -7474,7 +7528,8 @@
      "cooldownMs": 22000,
      "learnLevel": 32
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 56,
@@ -7586,7 +7641,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 57,
@@ -7713,7 +7769,8 @@
      "cooldownMs": 50000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 58,
@@ -7871,7 +7928,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 59,
@@ -8058,7 +8116,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 60,
@@ -8186,7 +8245,8 @@
      "cooldownMs": 20000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 61,
@@ -8320,7 +8380,8 @@
      "cooldownMs": 20000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 62,
@@ -8500,7 +8561,8 @@
      "cooldownMs": 20000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 63,
@@ -8556,7 +8618,8 @@
      "cooldownMs": 30000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 64,
@@ -8674,7 +8737,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 65,
@@ -8793,7 +8857,8 @@
      "learnLevel": 1,
      "tm": "PSYCHIC"
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 66,
@@ -8915,7 +8980,8 @@
      "cooldownMs": 40000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 67,
@@ -9043,7 +9109,8 @@
      "cooldownMs": 40000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 68,
@@ -9188,7 +9255,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 69,
@@ -9291,7 +9359,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 70,
@@ -9438,7 +9507,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 71,
@@ -9594,7 +9664,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 72,
@@ -9753,7 +9824,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 73,
@@ -9957,7 +10029,8 @@
      "cooldownMs": 40000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 74,
@@ -10090,7 +10163,8 @@
      "cooldownMs": 40000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 75,
@@ -10229,7 +10303,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 76,
@@ -10377,7 +10452,8 @@
      "cooldownMs": 40000,
      "learnLevel": 54
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 77,
@@ -10519,7 +10595,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 78,
@@ -10708,7 +10785,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 79,
@@ -10819,7 +10897,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 80,
@@ -10953,7 +11032,8 @@
      "cooldownMs": 22000,
      "learnLevel": 32
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 81,
@@ -11096,7 +11176,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 82,
@@ -11238,7 +11319,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 83,
@@ -11444,7 +11526,8 @@
      "cooldownMs": 15000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 84,
@@ -11587,7 +11670,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 85,
@@ -11751,7 +11835,8 @@
      "cooldownMs": 50000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 86,
@@ -11885,7 +11970,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 87,
@@ -12089,7 +12175,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 88,
@@ -12203,7 +12290,8 @@
      "cooldownMs": 50000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 89,
@@ -12332,7 +12420,8 @@
      "cooldownMs": 50000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 90,
@@ -12474,7 +12563,8 @@
      "cooldownMs": 40000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 91,
@@ -12678,7 +12768,8 @@
      "cooldownMs": 18000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 92,
@@ -12799,7 +12890,8 @@
      "cooldownMs": 20000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 93,
@@ -12948,7 +13040,8 @@
      "cooldownMs": 20000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 94,
@@ -13098,7 +13191,8 @@
      "cooldownMs": 20000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 95,
@@ -13299,7 +13393,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 96,
@@ -13435,7 +13530,8 @@
      "cooldownMs": 50000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 97,
@@ -13586,7 +13682,8 @@
      "cooldownMs": 22000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 98,
@@ -13714,7 +13811,8 @@
      "cooldownMs": 20000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 99,
@@ -13865,7 +13963,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 100,
@@ -13955,7 +14054,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 101,
@@ -14060,7 +14160,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 102,
@@ -14179,7 +14280,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 103,
@@ -14353,7 +14455,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 104,
@@ -14473,7 +14576,8 @@
      "cooldownMs": 20000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 105,
@@ -14608,7 +14712,8 @@
      "cooldownMs": 20000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 106,
@@ -14751,7 +14856,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 107,
@@ -14934,7 +15040,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 108,
@@ -15062,7 +15169,8 @@
      "cooldownMs": 50000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 109,
@@ -15168,7 +15276,8 @@
      "cooldownMs": 50000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 110,
@@ -15297,7 +15406,8 @@
      "cooldownMs": 50000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 111,
@@ -15454,7 +15564,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 112,
@@ -15662,7 +15773,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 113,
@@ -15752,7 +15864,8 @@
      "cooldownMs": 22000,
      "learnLevel": 27
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 114,
@@ -15913,7 +16026,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 115,
@@ -16055,7 +16169,8 @@
      "cooldownMs": 50000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 116,
@@ -16153,7 +16268,8 @@
      "cooldownMs": 40000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 117,
@@ -16283,7 +16399,8 @@
      "cooldownMs": 20000,
      "learnLevel": 31
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 118,
@@ -16387,7 +16504,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 119,
@@ -16548,7 +16666,8 @@
      "cooldownMs": 15000,
      "learnLevel": 24
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 120,
@@ -16684,7 +16803,8 @@
      "cooldownMs": 40000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 121,
@@ -16858,7 +16978,8 @@
      "cooldownMs": 35000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 122,
@@ -17016,7 +17137,8 @@
      "cooldownMs": 15000,
      "learnLevel": 11
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 123,
@@ -17212,7 +17334,8 @@
      "cooldownMs": 15000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 124,
@@ -17422,7 +17545,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 125,
@@ -17549,7 +17673,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 126,
@@ -17700,7 +17825,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 127,
@@ -17875,7 +18001,8 @@
      "cooldownMs": 50000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 128,
@@ -18017,7 +18144,8 @@
      "cooldownMs": 50000,
      "learnLevel": 63
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 129,
@@ -18032,7 +18160,7 @@
    "baseSpAtk": 15,
    "baseSpDef": 20,
    "baseSpeed": 80,
-   "huntLevel": 1,
+   "huntLevel": null,
    "evolvesToId": 130,
    "evolveLevel": 100,
    "priceNpc": 80,
@@ -18083,7 +18211,8 @@
      "cooldownMs": 15000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 130,
@@ -18250,7 +18379,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 131,
@@ -18414,7 +18544,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 132,
@@ -18429,7 +18560,7 @@
    "baseSpAtk": 48,
    "baseSpDef": 48,
    "baseSpeed": 48,
-   "huntLevel": 1,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -18455,7 +18586,8 @@
      "maxCount": 3
     }
    ],
-   "attacks": []
+   "attacks": [],
+   "area": null
   },
   {
    "pokeId": 133,
@@ -18470,7 +18602,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 65,
    "baseSpeed": 55,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 134,
    "evolveLevel": 80,
    "priceNpc": 45000,
@@ -18563,7 +18695,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 134,
@@ -18578,7 +18711,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 95,
    "baseSpeed": 65,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -18678,7 +18811,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 135,
@@ -18693,7 +18827,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 95,
    "baseSpeed": 130,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -18809,7 +18943,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 136,
@@ -18824,7 +18959,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 110,
    "baseSpeed": 65,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -18940,7 +19075,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 137,
@@ -18955,7 +19091,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 75,
    "baseSpeed": 40,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 233,
    "evolveLevel": 80,
    "priceNpc": 30000,
@@ -19046,7 +19182,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 138,
@@ -19173,7 +19310,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 139,
@@ -19329,7 +19467,8 @@
      "cooldownMs": 15000,
      "learnLevel": 56
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 140,
@@ -19440,7 +19579,8 @@
      "cooldownMs": 15000,
      "learnLevel": 36
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 141,
@@ -19588,7 +19728,8 @@
      "cooldownMs": 20000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 142,
@@ -19792,7 +19933,8 @@
      "cooldownMs": 50000,
      "learnLevel": 81
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 143,
@@ -19912,7 +20054,8 @@
      "cooldownMs": 15000,
      "learnLevel": 36
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 144,
@@ -19928,7 +20071,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 125,
    "baseSpeed": 85,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -20049,7 +20192,8 @@
      "cooldownMs": 40000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 145,
@@ -20065,7 +20209,7 @@
    "baseSpAtk": 125,
    "baseSpDef": 90,
    "baseSpeed": 100,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -20194,7 +20338,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 146,
@@ -20210,7 +20355,7 @@
    "baseSpAtk": 125,
    "baseSpDef": 85,
    "baseSpeed": 90,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -20347,7 +20492,8 @@
      "cooldownMs": 15000,
      "learnLevel": 8
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 147,
@@ -20467,7 +20613,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 148,
@@ -20611,7 +20758,8 @@
      "cooldownMs": 50000,
      "learnLevel": 67
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 149,
@@ -20804,7 +20952,8 @@
      "cooldownMs": 50000,
      "learnLevel": 75
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 150,
@@ -20819,7 +20968,7 @@
    "baseSpAtk": 154,
    "baseSpDef": 90,
    "baseSpeed": 130,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -20957,7 +21106,8 @@
      "learnLevel": 1,
      "tm": "PSYCHIC"
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 151,
@@ -20972,7 +21122,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 100,
    "baseSpeed": 100,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -21094,7 +21244,8 @@
      "cooldownMs": 22000,
      "learnLevel": 100
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 152,
@@ -21194,7 +21345,8 @@
      "cooldownMs": 22000,
      "learnLevel": 34
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 153,
@@ -21294,7 +21446,8 @@
      "cooldownMs": 22000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 154,
@@ -21419,7 +21572,8 @@
      "cooldownMs": 22000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 155,
@@ -21575,7 +21729,8 @@
      "cooldownMs": 50000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 156,
@@ -21731,7 +21886,8 @@
      "cooldownMs": 50000,
      "learnLevel": 68
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 157,
@@ -21896,7 +22052,8 @@
      "cooldownMs": 15000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 158,
@@ -22052,7 +22209,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 159,
@@ -22208,7 +22366,8 @@
      "cooldownMs": 40000,
      "learnLevel": 60
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 160,
@@ -22373,7 +22532,8 @@
      "cooldownMs": 40000,
      "learnLevel": 76
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 161,
@@ -22469,7 +22629,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 162,
@@ -22571,7 +22732,8 @@
      "cooldownMs": 22000,
      "learnLevel": 56
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 163,
@@ -22714,7 +22876,8 @@
      "cooldownMs": 40000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 164,
@@ -22886,7 +23049,8 @@
      "cooldownMs": 22000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 165,
@@ -22997,7 +23161,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 166,
@@ -23132,7 +23297,8 @@
      "cooldownMs": 22000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 167,
@@ -23273,7 +23439,8 @@
      "cooldownMs": 20000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 168,
@@ -23445,7 +23612,8 @@
      "cooldownMs": 20000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 169,
@@ -23618,7 +23786,8 @@
      "cooldownMs": 22000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 170,
@@ -23749,7 +23918,8 @@
      "cooldownMs": 40000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 171,
@@ -23913,7 +24083,8 @@
      "cooldownMs": 40000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 172,
@@ -23975,7 +24146,8 @@
      "cooldownMs": 10000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 173,
@@ -24045,7 +24217,8 @@
      "cooldownMs": 20000,
      "learnLevel": 16
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 174,
@@ -24108,7 +24281,8 @@
      "cooldownMs": 15000,
      "learnLevel": 5
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 175,
@@ -24186,7 +24360,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 176,
@@ -24299,7 +24474,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 177,
@@ -24400,7 +24576,8 @@
      "cooldownMs": 50000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 178,
@@ -24533,7 +24710,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 179,
@@ -24643,7 +24821,8 @@
      "cooldownMs": 22000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 180,
@@ -24753,7 +24932,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 181,
@@ -24904,7 +25084,8 @@
      "cooldownMs": 22000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 182,
@@ -25047,7 +25228,8 @@
      "cooldownMs": 50000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 183,
@@ -25188,7 +25370,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 184,
@@ -25338,7 +25521,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 185,
@@ -25353,7 +25537,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 65,
    "baseSpeed": 30,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 60000,
@@ -25481,7 +25665,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 186,
@@ -25632,7 +25817,8 @@
      "cooldownMs": 20000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 187,
@@ -25751,7 +25937,8 @@
      "cooldownMs": 22000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 188,
@@ -25876,7 +26063,8 @@
      "cooldownMs": 22000,
      "learnLevel": 56
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 189,
@@ -26019,7 +26207,8 @@
      "cooldownMs": 22000,
      "learnLevel": 64
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 190,
@@ -26115,7 +26304,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 191,
@@ -26219,7 +26409,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 192,
@@ -26378,7 +26569,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 193,
@@ -26529,7 +26721,8 @@
      "cooldownMs": 22000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 194,
@@ -26638,7 +26831,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 195,
@@ -26768,7 +26962,8 @@
      "cooldownMs": 22000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 196,
@@ -26783,7 +26978,7 @@
    "baseSpAtk": 130,
    "baseSpDef": 95,
    "baseSpeed": 110,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -26889,7 +27084,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 197,
@@ -26904,7 +27100,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 130,
    "baseSpeed": 65,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -26988,7 +27184,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 198,
@@ -27004,7 +27201,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 42,
    "baseSpeed": 91,
-   "huntLevel": 50,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 10000,
@@ -27137,7 +27334,8 @@
      "cooldownMs": 22000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 199,
@@ -27153,7 +27351,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 110,
    "baseSpeed": 30,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 55000,
@@ -27291,7 +27489,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 200,
@@ -27393,7 +27592,8 @@
      "cooldownMs": 22000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 429,
@@ -27408,7 +27608,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 105,
    "baseSpeed": 105,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 120000,
    "sellValue": 120000,
    "experience": 6008,
@@ -27533,7 +27733,8 @@
      "cooldownMs": 22000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 202,
@@ -27596,7 +27797,8 @@
      "learnLevel": 1,
      "tm": "PSYCHIC"
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 203,
@@ -27743,7 +27945,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 204,
@@ -27845,7 +28048,8 @@
      "cooldownMs": 15000,
      "learnLevel": 31
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 205,
@@ -27979,7 +28183,8 @@
      "cooldownMs": 15000,
      "learnLevel": 36
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 206,
@@ -28085,7 +28290,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 207,
@@ -28250,7 +28456,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 208,
@@ -28462,7 +28669,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 209,
@@ -28598,7 +28806,8 @@
      "cooldownMs": 22000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 210,
@@ -28742,7 +28951,8 @@
      "cooldownMs": 22000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 211,
@@ -28940,7 +29150,8 @@
      "cooldownMs": 22000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 212,
@@ -29120,7 +29331,8 @@
      "cooldownMs": 15000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 213,
@@ -29254,7 +29466,8 @@
      "cooldownMs": 40000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 214,
@@ -29442,7 +29655,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 215,
@@ -29579,7 +29793,8 @@
      "cooldownMs": 15000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 216,
@@ -29691,7 +29906,8 @@
      "cooldownMs": 15000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 217,
@@ -29829,7 +30045,8 @@
      "cooldownMs": 15000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 218,
@@ -29979,7 +30196,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 219,
@@ -30151,7 +30369,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 220,
@@ -30290,7 +30509,8 @@
      "cooldownMs": 40000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 221,
@@ -30486,7 +30706,8 @@
      "cooldownMs": 40000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 222,
@@ -30652,7 +30873,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 223,
@@ -30786,7 +31008,8 @@
      "cooldownMs": 50000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 224,
@@ -30971,7 +31194,8 @@
      "cooldownMs": 50000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 225,
@@ -31050,7 +31274,8 @@
      "learnLevel": 1,
      "tm": "ICE"
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 226,
@@ -31257,7 +31482,8 @@
      "cooldownMs": 40000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 227,
@@ -31407,7 +31633,8 @@
      "cooldownMs": 20000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 228,
@@ -31540,7 +31767,8 @@
      "cooldownMs": 40000,
      "learnLevel": 56
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 229,
@@ -31696,7 +31924,8 @@
      "cooldownMs": 22000,
      "learnLevel": 56
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 230,
@@ -31855,7 +32084,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 231,
@@ -31957,7 +32187,8 @@
      "cooldownMs": 50000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 232,
@@ -32116,7 +32347,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 233,
@@ -32131,7 +32363,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 95,
    "baseSpeed": 60,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 60000,
@@ -32220,7 +32452,8 @@
      "cooldownMs": 50000,
      "learnLevel": 67
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 234,
@@ -32316,7 +32549,8 @@
      "cooldownMs": 40000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 235,
@@ -32331,7 +32565,7 @@
    "baseSpAtk": 20,
    "baseSpDef": 45,
    "baseSpeed": 75,
-   "huntLevel": 1,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 1000000,
@@ -32357,7 +32591,8 @@
      "maxCount": 23
     }
    ],
-   "attacks": []
+   "attacks": [],
+   "area": null
   },
   {
    "pokeId": 236,
@@ -32427,7 +32662,8 @@
      "cooldownMs": 15000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 237,
@@ -32554,7 +32790,8 @@
      "cooldownMs": 15000,
      "learnLevel": 33
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 238,
@@ -32679,7 +32916,8 @@
      "cooldownMs": 40000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 239,
@@ -32797,7 +33035,8 @@
      "cooldownMs": 22000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 240,
@@ -32931,7 +33170,8 @@
      "cooldownMs": 22000,
      "learnLevel": 33
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 241,
@@ -33027,7 +33267,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 242,
@@ -33042,7 +33283,7 @@
    "baseSpAtk": 75,
    "baseSpDef": 135,
    "baseSpeed": 55,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 70000,
@@ -33115,7 +33356,8 @@
      "cooldownMs": 40000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 243,
@@ -33130,7 +33372,7 @@
    "baseSpAtk": 115,
    "baseSpDef": 100,
    "baseSpeed": 115,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -33256,7 +33498,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 244,
@@ -33271,7 +33514,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 75,
    "baseSpeed": 100,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -33407,7 +33650,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 245,
@@ -33422,7 +33666,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 115,
    "baseSpeed": 85,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -33534,7 +33778,8 @@
      "cooldownMs": 40000,
      "learnLevel": 85
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 246,
@@ -33681,7 +33926,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 247,
@@ -33834,7 +34080,8 @@
      "cooldownMs": 50000,
      "learnLevel": 67
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 248,
@@ -34034,7 +34281,8 @@
      "cooldownMs": 50000,
      "learnLevel": 82
     }
-   ]
+   ],
+   "area": "kanto"
   },
   {
    "pokeId": 249,
@@ -34050,7 +34298,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 154,
    "baseSpeed": 110,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -34197,7 +34445,8 @@
      "cooldownMs": 50000,
      "learnLevel": 99
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 250,
@@ -34213,7 +34462,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 154,
    "baseSpeed": 90,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -34354,7 +34603,8 @@
      "cooldownMs": 50000,
      "learnLevel": 99
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 251,
@@ -34370,7 +34620,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 100,
    "baseSpeed": 100,
-   "huntLevel": 200,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 0,
@@ -34476,7 +34726,8 @@
      "cooldownMs": 50000,
      "learnLevel": 82
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 252,
@@ -34491,7 +34742,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 55,
    "baseSpeed": 70,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 253,
    "evolveLevel": 40,
    "priceNpc": 3000,
@@ -34618,7 +34869,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 65,
    "baseSpeed": 95,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 254,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -34763,7 +35014,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 85,
    "baseSpeed": 120,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -34922,7 +35173,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 50,
    "baseSpeed": 45,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 256,
    "evolveLevel": 40,
    "priceNpc": 3000,
@@ -35042,7 +35293,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 60,
    "baseSpeed": 55,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 257,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -35184,7 +35435,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 70,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -35363,7 +35614,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 50,
    "baseSpeed": 40,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 259,
    "evolveLevel": 40,
    "priceNpc": 3000,
@@ -35475,7 +35726,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 70,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 260,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -35629,7 +35880,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 90,
    "baseSpeed": 60,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -35784,7 +36035,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 30,
    "baseSpeed": 35,
-   "huntLevel": 470,
+   "huntLevel": 530,
    "evolvesToId": 262,
    "evolveLevel": 100,
    "priceNpc": 4000,
@@ -35889,7 +36140,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 60,
    "baseSpeed": 70,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -36011,7 +36262,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 50,
    "baseSpeed": 30,
-   "huntLevel": 470,
+   "huntLevel": 520,
    "evolvesToId": 271,
    "evolveLevel": 50,
    "priceNpc": 3000,
@@ -36157,7 +36408,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 70,
    "baseSpeed": 50,
-   "huntLevel": 470,
+   "huntLevel": 550,
    "evolvesToId": 272,
    "evolveLevel": 100,
    "priceNpc": 10000,
@@ -36311,7 +36562,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 100,
    "baseSpeed": 70,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -36488,7 +36739,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 30,
    "baseSpeed": 30,
-   "huntLevel": 550,
+   "huntLevel": 510,
    "evolvesToId": 274,
    "evolveLevel": 30,
    "priceNpc": 500,
@@ -36543,7 +36794,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 40,
    "baseSpeed": 60,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 275,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -36667,7 +36918,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 60,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -36809,7 +37060,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 30,
    "baseSpeed": 85,
-   "huntLevel": 470,
+   "huntLevel": 530,
    "evolvesToId": 277,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -36931,7 +37182,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 50,
    "baseSpeed": 125,
-   "huntLevel": 470,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -37069,7 +37320,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 30,
    "baseSpeed": 85,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 279,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -37205,7 +37456,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 70,
    "baseSpeed": 65,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -37341,7 +37592,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 35,
    "baseSpeed": 40,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 281,
    "evolveLevel": 60,
    "priceNpc": 4000,
@@ -37475,7 +37726,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 55,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 560,
    "evolvesToId": 282,
    "evolveLevel": 100,
    "priceNpc": 12000,
@@ -37609,7 +37860,7 @@
    "baseSpAtk": 125,
    "baseSpDef": 115,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -37756,7 +38007,7 @@
    "baseSpAtk": 35,
    "baseSpDef": 35,
    "baseSpeed": 30,
-   "huntLevel": 470,
+   "huntLevel": 540,
    "evolvesToId": 288,
    "evolveLevel": 60,
    "priceNpc": 8000,
@@ -37867,7 +38118,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 55,
    "baseSpeed": 90,
-   "huntLevel": 470,
+   "huntLevel": 560,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 12000,
@@ -37986,7 +38237,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 65,
    "baseSpeed": 100,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -38051,7 +38302,8 @@
      "cooldownMs": 20000,
      "learnLevel": 27
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 293,
@@ -38066,7 +38318,7 @@
    "baseSpAtk": 51,
    "baseSpDef": 23,
    "baseSpeed": 28,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 294,
    "evolveLevel": 50,
    "priceNpc": 3000,
@@ -38318,7 +38570,7 @@
    "baseSpAtk": 91,
    "baseSpDef": 73,
    "baseSpeed": 68,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -38485,7 +38737,7 @@
    "baseSpAtk": 20,
    "baseSpDef": 30,
    "baseSpeed": 25,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 8000,
@@ -38607,7 +38859,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 65,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 560,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 12000,
@@ -38770,7 +39022,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 55,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -38894,7 +39146,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 40,
    "baseSpeed": 30,
-   "huntLevel": 470,
+   "huntLevel": 530,
    "evolvesToId": 305,
    "evolveLevel": 60,
    "priceNpc": 4000,
@@ -39052,7 +39304,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 50,
    "baseSpeed": 40,
-   "huntLevel": 550,
+   "huntLevel": 560,
    "evolvesToId": 306,
    "evolveLevel": 100,
    "priceNpc": 12000,
@@ -39210,7 +39462,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 60,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -39368,7 +39620,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 55,
    "baseSpeed": 60,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 308,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -39470,7 +39722,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 75,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -39617,7 +39869,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 40,
    "baseSpeed": 65,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 310,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -39752,7 +40004,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 60,
    "baseSpeed": 105,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -39880,7 +40132,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 20,
    "baseSpeed": 65,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 319,
    "evolveLevel": 80,
    "priceNpc": 3000,
@@ -39959,7 +40211,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 319,
@@ -39975,7 +40228,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 40,
    "baseSpeed": 95,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -40078,7 +40331,8 @@
      "cooldownMs": 50000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 322,
@@ -40094,7 +40348,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 45,
    "baseSpeed": 35,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 323,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -40234,7 +40488,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 75,
    "baseSpeed": 40,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -40385,7 +40639,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 70,
    "baseSpeed": 20,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -40536,7 +40790,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 80,
    "baseSpeed": 60,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 326,
    "evolveLevel": 80,
    "priceNpc": 3000,
@@ -40679,7 +40933,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 110,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -40814,7 +41068,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 45,
    "baseSpeed": 10,
-   "huntLevel": 470,
+   "huntLevel": 520,
    "evolvesToId": 329,
    "evolveLevel": 50,
    "priceNpc": 3000,
@@ -41150,7 +41404,7 @@
    "baseSpAtk": 80,
    "baseSpDef": 80,
    "baseSpeed": 100,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -41357,7 +41611,7 @@
    "baseSpAtk": 115,
    "baseSpDef": 60,
    "baseSpeed": 55,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -41507,7 +41761,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 75,
    "baseSpeed": 50,
-   "huntLevel": 470,
+   "huntLevel": 540,
    "evolvesToId": 334,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -41647,7 +41901,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 105,
    "baseSpeed": 80,
-   "huntLevel": 470,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -41810,7 +42064,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 60,
    "baseSpeed": 90,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -41967,7 +42221,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 60,
    "baseSpeed": 65,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -42097,7 +42351,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 85,
    "baseSpeed": 70,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -42184,7 +42438,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 338,
@@ -42200,7 +42455,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 65,
    "baseSpeed": 70,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -42279,7 +42534,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 339,
@@ -42295,7 +42551,7 @@
    "baseSpAtk": 46,
    "baseSpDef": 41,
    "baseSpeed": 60,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 340,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -42394,7 +42650,8 @@
      "cooldownMs": 50000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 340,
@@ -42410,7 +42667,7 @@
    "baseSpAtk": 76,
    "baseSpDef": 71,
    "baseSpeed": 60,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -42511,7 +42768,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 341,
@@ -42526,7 +42784,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 35,
    "baseSpeed": 35,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 342,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -42670,7 +42928,7 @@
    "baseSpAtk": 90,
    "baseSpDef": 55,
    "baseSpeed": 55,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -42826,7 +43084,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 70,
    "baseSpeed": 55,
-   "huntLevel": 470,
+   "huntLevel": 530,
    "evolvesToId": 344,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -42972,7 +43230,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 120,
    "baseSpeed": 75,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -43141,7 +43399,7 @@
    "baseSpAtk": 10,
    "baseSpDef": 55,
    "baseSpeed": 80,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 350,
    "evolveLevel": 600,
    "priceNpc": 500,
@@ -43170,7 +43428,8 @@
      "cooldownMs": 8000,
      "learnLevel": 15
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 350,
@@ -43185,7 +43444,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 125,
    "baseSpeed": 81,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -43280,7 +43539,8 @@
      "cooldownMs": 20000,
      "learnLevel": 27
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 353,
@@ -43295,7 +43555,7 @@
    "baseSpAtk": 63,
    "baseSpDef": 33,
    "baseSpeed": 45,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 4000,
@@ -43380,7 +43640,8 @@
      "cooldownMs": 22000,
      "learnLevel": 54
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 354,
@@ -43395,7 +43656,7 @@
    "baseSpAtk": 83,
    "baseSpDef": 63,
    "baseSpeed": 65,
-   "huntLevel": 470,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -43500,7 +43761,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 90,
    "baseSpeed": 25,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 356,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -43621,7 +43882,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 130,
    "baseSpeed": 25,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 477,
    "evolveLevel": 600,
    "priceNpc": 120000,
@@ -43781,7 +44042,7 @@
    "baseSpAtk": 72,
    "baseSpDef": 87,
    "baseSpeed": 51,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -43940,7 +44201,7 @@
    "baseSpAtk": 75,
    "baseSpDef": 60,
    "baseSpeed": 75,
-   "huntLevel": 470,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -44099,7 +44360,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 50,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 362,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -44220,7 +44481,7 @@
    "baseSpAtk": 80,
    "baseSpDef": 80,
    "baseSpeed": 80,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -44373,7 +44634,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 50,
    "baseSpeed": 25,
-   "huntLevel": 550,
+   "huntLevel": 530,
    "evolvesToId": 364,
    "evolveLevel": 60,
    "priceNpc": 4000,
@@ -44521,7 +44782,7 @@
    "baseSpAtk": 75,
    "baseSpDef": 70,
    "baseSpeed": 45,
-   "huntLevel": 550,
+   "huntLevel": 560,
    "evolvesToId": 365,
    "evolveLevel": 100,
    "priceNpc": 12000,
@@ -44677,7 +44938,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 90,
    "baseSpeed": 65,
-   "huntLevel": 550,
+   "huntLevel": 600,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 120000,
@@ -44854,7 +45115,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 30,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 540,
    "evolvesToId": 372,
    "evolveLevel": 60,
    "priceNpc": 8000,
@@ -44985,7 +45246,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 50,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 560,
    "evolvesToId": 373,
    "evolveLevel": 600,
    "priceNpc": 12000,
@@ -45142,7 +45403,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 80,
    "baseSpeed": 100,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -45291,7 +45552,8 @@
      "cooldownMs": 50000,
      "learnLevel": 63
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 374,
@@ -45307,7 +45569,7 @@
    "baseSpAtk": 35,
    "baseSpDef": 60,
    "baseSpeed": 30,
-   "huntLevel": 550,
+   "huntLevel": 520,
    "evolvesToId": 375,
    "evolveLevel": 80,
    "priceNpc": 3000,
@@ -45365,7 +45627,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 80,
    "baseSpeed": 50,
-   "huntLevel": 550,
+   "huntLevel": 580,
    "evolvesToId": 376,
    "evolveLevel": 600,
    "priceNpc": 18000,
@@ -45487,7 +45749,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 90,
    "baseSpeed": 70,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -45598,7 +45860,8 @@
      "cooldownMs": 50000,
      "learnLevel": 60
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 392,
@@ -45614,7 +45877,7 @@
    "baseSpAtk": 104,
    "baseSpDef": 71,
    "baseSpeed": 108,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -45701,7 +45964,8 @@
      "cooldownMs": 20000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 405,
@@ -45716,7 +45980,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 79,
    "baseSpeed": 70,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -45779,7 +46043,8 @@
      "cooldownMs": 22000,
      "learnLevel": 63
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 408,
@@ -45794,7 +46059,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 30,
    "baseSpeed": 58,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 409,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -45879,7 +46144,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 409,
@@ -45894,7 +46160,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 50,
    "baseSpeed": 58,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -45973,7 +46239,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 410,
@@ -45989,7 +46256,7 @@
    "baseSpAtk": 42,
    "baseSpDef": 88,
    "baseSpeed": 30,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 411,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -46068,7 +46335,8 @@
      "cooldownMs": 20000,
      "learnLevel": 28
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 411,
@@ -46084,7 +46352,7 @@
    "baseSpAtk": 47,
    "baseSpDef": 138,
    "baseSpeed": 30,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -46159,7 +46427,8 @@
      "cooldownMs": 22000,
      "learnLevel": 15
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 413,
@@ -46175,7 +46444,7 @@
    "baseSpAtk": 79,
    "baseSpDef": 105,
    "baseSpeed": 36,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -46246,7 +46515,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 416,
@@ -46262,7 +46532,7 @@
    "baseSpAtk": 80,
    "baseSpDef": 102,
    "baseSpeed": 40,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -46367,7 +46637,8 @@
      "cooldownMs": 22000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 417,
@@ -46382,7 +46653,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 90,
    "baseSpeed": 95,
-   "huntLevel": 50,
+   "huntLevel": null,
    "priceNpc": 8000,
    "sellValue": 8000,
    "experience": 1508,
@@ -46471,7 +46742,8 @@
      "cooldownMs": 22000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 428,
@@ -46486,7 +46758,7 @@
    "baseSpAtk": 54,
    "baseSpDef": 96,
    "baseSpeed": 105,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -46571,7 +46843,8 @@
      "cooldownMs": 50000,
      "learnLevel": 66
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 443,
@@ -46587,7 +46860,7 @@
    "baseSpAtk": 40,
    "baseSpDef": 45,
    "baseSpeed": 42,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 444,
    "evolveLevel": 60,
    "priceNpc": 3000,
@@ -46658,7 +46931,8 @@
      "cooldownMs": 40000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 444,
@@ -46674,7 +46948,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 55,
    "baseSpeed": 82,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 445,
    "evolveLevel": 100,
    "priceNpc": 12000,
@@ -46753,7 +47027,8 @@
      "cooldownMs": 40000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 445,
@@ -46769,7 +47044,7 @@
    "baseSpAtk": 80,
    "baseSpDef": 85,
    "baseSpeed": 102,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -46864,7 +47139,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 447,
@@ -46879,7 +47155,7 @@
    "baseSpAtk": 35,
    "baseSpDef": 40,
    "baseSpeed": 60,
-   "huntLevel": 470,
+   "huntLevel": 530,
    "evolvesToId": 448,
    "evolveLevel": 80,
    "priceNpc": 4000,
@@ -46953,7 +47229,7 @@
    "baseSpAtk": 115,
    "baseSpDef": 70,
    "baseSpeed": 90,
-   "huntLevel": 470,
+   "huntLevel": 580,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -47091,7 +47367,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 120,
    "baseSpeed": 50,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 4000,
@@ -47192,7 +47468,8 @@
      "cooldownMs": 40000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 460,
@@ -47208,7 +47485,7 @@
    "baseSpAtk": 92,
    "baseSpDef": 85,
    "baseSpeed": 60,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -47291,7 +47568,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 461,
@@ -47307,7 +47585,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 85,
    "baseSpeed": 125,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -47436,7 +47714,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 462,
@@ -47452,7 +47731,7 @@
    "baseSpAtk": 130,
    "baseSpDef": 90,
    "baseSpeed": 60,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -47557,7 +47836,8 @@
      "cooldownMs": 22000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 464,
@@ -47573,7 +47853,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 55,
    "baseSpeed": 40,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -47724,7 +48004,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 465,
@@ -47739,7 +48020,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 50,
    "baseSpeed": 50,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -47856,7 +48137,8 @@
      "cooldownMs": 50000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 466,
@@ -47871,7 +48153,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 85,
    "baseSpeed": 95,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -47996,7 +48278,8 @@
      "cooldownMs": 50000,
      "learnLevel": 62
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 467,
@@ -48011,7 +48294,7 @@
    "baseSpAtk": 125,
    "baseSpDef": 95,
    "baseSpeed": 83,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -48138,7 +48421,8 @@
      "cooldownMs": 50000,
      "learnLevel": 62
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 468,
@@ -48154,7 +48438,7 @@
    "baseSpAtk": 120,
    "baseSpDef": 115,
    "baseSpeed": 80,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -48263,7 +48547,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 472,
@@ -48279,7 +48564,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 75,
    "baseSpeed": 95,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -48422,7 +48707,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 475,
@@ -48438,7 +48724,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 115,
    "baseSpeed": 80,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -48573,7 +48859,8 @@
      "cooldownMs": 40000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 477,
@@ -48588,7 +48875,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 135,
    "baseSpeed": 45,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -48709,7 +48996,8 @@
      "cooldownMs": 15000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 514,
@@ -48724,7 +49012,7 @@
    "baseSpAtk": 98,
    "baseSpDef": 63,
    "baseSpeed": 101,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -48755,7 +49043,8 @@
      "cooldownMs": 20000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 538,
@@ -48770,7 +49059,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 85,
    "baseSpeed": 45,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -48845,7 +49134,8 @@
      "cooldownMs": 20000,
      "learnLevel": 37
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 539,
@@ -48860,7 +49150,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 75,
    "baseSpeed": 85,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -48935,7 +49225,8 @@
      "cooldownMs": 50000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 543,
@@ -48951,7 +49242,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 39,
    "baseSpeed": 57,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 4000,
@@ -49030,7 +49321,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 545,
@@ -49046,7 +49338,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 69,
    "baseSpeed": 112,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -49133,7 +49425,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 548,
@@ -49148,7 +49441,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 50,
    "baseSpeed": 30,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 549,
    "evolveLevel": 80,
    "priceNpc": 3000,
@@ -49211,7 +49504,8 @@
      "cooldownMs": 22000,
      "learnLevel": 35
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 549,
@@ -49226,7 +49520,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 75,
    "baseSpeed": 90,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -49319,7 +49613,8 @@
      "cooldownMs": 50000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 564,
@@ -49335,7 +49630,7 @@
    "baseSpAtk": 53,
    "baseSpDef": 45,
    "baseSpeed": 22,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 565,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -49450,7 +49745,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 565,
@@ -49466,7 +49762,7 @@
    "baseSpAtk": 83,
    "baseSpDef": 65,
    "baseSpeed": 32,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -49579,7 +49875,8 @@
      "cooldownMs": 40000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 566,
@@ -49595,7 +49892,7 @@
    "baseSpAtk": 74,
    "baseSpDef": 45,
    "baseSpeed": 70,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 567,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -49718,7 +50015,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 567,
@@ -49734,7 +50032,7 @@
    "baseSpAtk": 112,
    "baseSpDef": 65,
    "baseSpeed": 110,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -49855,7 +50153,8 @@
      "cooldownMs": 50000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 571,
@@ -49870,7 +50169,7 @@
    "baseSpAtk": 120,
    "baseSpDef": 60,
    "baseSpeed": 105,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -49965,7 +50264,8 @@
      "cooldownMs": 20000,
      "learnLevel": 17
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 599,
@@ -49980,7 +50280,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 60,
    "baseSpeed": 30,
-   "huntLevel": 10,
+   "huntLevel": null,
    "evolvesToId": 600,
    "evolveLevel": 60,
    "priceNpc": 3000,
@@ -50073,7 +50373,8 @@
      "cooldownMs": 50000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 600,
@@ -50088,7 +50389,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 85,
    "baseSpeed": 50,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 601,
    "evolveLevel": 80,
    "priceNpc": 12000,
@@ -50181,7 +50482,8 @@
      "cooldownMs": 50000,
      "learnLevel": 64
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 601,
@@ -50196,7 +50498,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 85,
    "baseSpeed": 90,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -50297,7 +50599,8 @@
      "cooldownMs": 50000,
      "learnLevel": 72
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 602,
@@ -50312,7 +50615,7 @@
    "baseSpAtk": 45,
    "baseSpDef": 40,
    "baseSpeed": 60,
-   "huntLevel": 1,
+   "huntLevel": null,
    "evolvesToId": 603,
    "evolveLevel": 40,
    "priceNpc": 3000,
@@ -50351,7 +50654,8 @@
      "cooldownMs": 15000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 603,
@@ -50366,7 +50670,7 @@
    "baseSpAtk": 75,
    "baseSpDef": 70,
    "baseSpeed": 40,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 604,
    "evolveLevel": 80,
    "priceNpc": 8000,
@@ -50491,7 +50795,8 @@
      "cooldownMs": 50000,
      "learnLevel": 74
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 604,
@@ -50506,7 +50811,7 @@
    "baseSpAtk": 105,
    "baseSpDef": 80,
    "baseSpeed": 50,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -50633,7 +50938,8 @@
      "cooldownMs": 22000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 607,
@@ -50649,7 +50955,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 55,
    "baseSpeed": 20,
-   "huntLevel": 20,
+   "huntLevel": null,
    "evolvesToId": 608,
    "evolveLevel": 50,
    "priceNpc": 3000,
@@ -50736,7 +51042,8 @@
      "cooldownMs": 50000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 608,
@@ -50752,7 +51059,7 @@
    "baseSpAtk": 95,
    "baseSpDef": 60,
    "baseSpeed": 55,
-   "huntLevel": 50,
+   "huntLevel": null,
    "evolvesToId": 609,
    "evolveLevel": 80,
    "priceNpc": 10000,
@@ -50831,7 +51138,8 @@
      "cooldownMs": 50000,
      "learnLevel": 69
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 609,
@@ -50847,7 +51155,7 @@
    "baseSpAtk": 145,
    "baseSpDef": 90,
    "baseSpeed": 80,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -50926,7 +51234,8 @@
      "cooldownMs": 50000,
      "learnLevel": 69
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 627,
@@ -50942,7 +51251,7 @@
    "baseSpAtk": 37,
    "baseSpDef": 50,
    "baseSpeed": 60,
-   "huntLevel": 50,
+   "huntLevel": null,
    "evolvesToId": 628,
    "evolveLevel": 100,
    "priceNpc": 10000,
@@ -51051,7 +51360,8 @@
      "cooldownMs": 50000,
      "learnLevel": 64
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 628,
@@ -51067,7 +51377,7 @@
    "baseSpAtk": 57,
    "baseSpDef": 75,
    "baseSpeed": 80,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -51184,7 +51494,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 636,
@@ -51200,7 +51511,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 55,
    "baseSpeed": 60,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 637,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -51301,7 +51612,8 @@
      "cooldownMs": 50000,
      "learnLevel": 90
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 637,
@@ -51317,7 +51629,7 @@
    "baseSpAtk": 135,
    "baseSpDef": 105,
    "baseSpeed": 100,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -51438,7 +51750,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 667,
@@ -51454,7 +51767,7 @@
    "baseSpAtk": 73,
    "baseSpDef": 54,
    "baseSpeed": 72,
-   "huntLevel": 50,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 10000,
@@ -51569,7 +51882,8 @@
      "cooldownMs": 20000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 669,
@@ -51584,7 +51898,7 @@
    "baseSpAtk": 61,
    "baseSpDef": 79,
    "baseSpeed": 42,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 670,
    "evolveLevel": 70,
    "priceNpc": 3000,
@@ -51677,7 +51991,8 @@
      "cooldownMs": 50000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 670,
@@ -51692,7 +52007,7 @@
    "baseSpAtk": 75,
    "baseSpDef": 98,
    "baseSpeed": 52,
-   "huntLevel": 70,
+   "huntLevel": null,
    "evolvesToId": 671,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -51785,7 +52100,8 @@
      "cooldownMs": 50000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 671,
@@ -51800,7 +52116,7 @@
    "baseSpAtk": 112,
    "baseSpDef": 154,
    "baseSpeed": 75,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -51911,7 +52227,8 @@
      "cooldownMs": 50000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 672,
@@ -51926,7 +52243,7 @@
    "baseSpAtk": 62,
    "baseSpDef": 57,
    "baseSpeed": 52,
-   "huntLevel": 40,
+   "huntLevel": null,
    "evolvesToId": 673,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -52019,7 +52336,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 673,
@@ -52034,7 +52352,7 @@
    "baseSpAtk": 97,
    "baseSpDef": 81,
    "baseSpeed": 68,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -52129,7 +52447,8 @@
      "cooldownMs": 40000,
      "learnLevel": 60
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 674,
@@ -52144,7 +52463,7 @@
    "baseSpAtk": 46,
    "baseSpDef": 48,
    "baseSpeed": 43,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 675,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -52245,7 +52564,8 @@
      "cooldownMs": 22000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 675,
@@ -52261,7 +52581,7 @@
    "baseSpAtk": 69,
    "baseSpDef": 71,
    "baseSpeed": 58,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -52382,7 +52702,8 @@
      "cooldownMs": 20000,
      "learnLevel": 70
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 677,
@@ -52397,7 +52718,7 @@
    "baseSpAtk": 63,
    "baseSpDef": 60,
    "baseSpeed": 68,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 4000,
@@ -52474,7 +52795,8 @@
      "cooldownMs": 22000,
      "learnLevel": 25
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 681,
@@ -52490,7 +52812,7 @@
    "baseSpAtk": 50,
    "baseSpDef": 150,
    "baseSpeed": 60,
-   "huntLevel": 120,
+   "huntLevel": null,
    "priceNpc": 120000,
    "sellValue": 18000,
    "experience": 8648,
@@ -52587,7 +52909,8 @@
      "cooldownMs": 50000,
      "learnLevel": 1
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 690,
@@ -52603,7 +52926,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 60,
    "baseSpeed": 30,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 691,
    "evolveLevel": 100,
    "priceNpc": 8000,
@@ -52712,7 +53035,8 @@
      "cooldownMs": 22000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 691,
@@ -52728,7 +53052,7 @@
    "baseSpAtk": 97,
    "baseSpDef": 123,
    "baseSpeed": 44,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 18000,
    "sellValue": 18000,
    "experience": 6008,
@@ -52851,7 +53175,8 @@
      "cooldownMs": 22000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 470,
@@ -52866,7 +53191,7 @@
    "baseSpAtk": 60,
    "baseSpDef": 65,
    "baseSpeed": 95,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -52970,7 +53295,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 471,
@@ -52985,7 +53311,7 @@
    "baseSpAtk": 130,
    "baseSpDef": 95,
    "baseSpeed": 65,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 25000,
@@ -53097,7 +53423,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 700,
@@ -53112,7 +53439,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 130,
    "baseSpeed": 60,
-   "huntLevel": 80,
+   "huntLevel": null,
    "priceNpc": 25000,
    "sellValue": 25000,
    "experience": 3848,
@@ -53213,7 +53540,8 @@
      "cooldownMs": 50000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 704,
@@ -53228,7 +53556,7 @@
    "baseSpAtk": 55,
    "baseSpDef": 75,
    "baseSpeed": 40,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 705,
    "evolveLevel": 60,
    "priceNpc": 4000,
@@ -53299,7 +53627,8 @@
      "cooldownMs": 22000,
      "learnLevel": 42
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 705,
@@ -53314,7 +53643,7 @@
    "baseSpAtk": 83,
    "baseSpDef": 113,
    "baseSpeed": 60,
-   "huntLevel": 60,
+   "huntLevel": null,
    "evolvesToId": 706,
    "evolveLevel": 100,
    "priceNpc": 12000,
@@ -53385,7 +53714,8 @@
      "cooldownMs": 22000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 706,
@@ -53400,7 +53730,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 150,
    "baseSpeed": 80,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53503,7 +53833,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 744,
@@ -53518,7 +53849,7 @@
    "baseSpAtk": 30,
    "baseSpDef": 40,
    "baseSpeed": 60,
-   "huntLevel": 30,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 4000,
@@ -53573,7 +53904,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 776,
@@ -53589,7 +53921,7 @@
    "baseSpAtk": 91,
    "baseSpDef": 85,
    "baseSpeed": 36,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53636,7 +53968,8 @@
      "cooldownMs": 40000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 780,
@@ -53652,7 +53985,7 @@
    "baseSpAtk": 135,
    "baseSpDef": 91,
    "baseSpeed": 36,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53707,7 +54040,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 842,
@@ -53723,7 +54057,7 @@
    "baseSpAtk": 100,
    "baseSpDef": 80,
    "baseSpeed": 30,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53762,7 +54096,8 @@
      "cooldownMs": 40000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 843,
@@ -53777,7 +54112,7 @@
    "baseSpAtk": 35,
    "baseSpDef": 50,
    "baseSpeed": 46,
-   "huntLevel": 50,
+   "huntLevel": null,
    "evolvesToId": 844,
    "evolveLevel": 80,
    "priceNpc": 10000,
@@ -53830,7 +54165,8 @@
      "cooldownMs": 40000,
      "learnLevel": 30
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 844,
@@ -53845,7 +54181,7 @@
    "baseSpAtk": 65,
    "baseSpDef": 70,
    "baseSpeed": 71,
-   "huntLevel": 80,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53892,7 +54228,8 @@
      "cooldownMs": 40000,
      "learnLevel": 30
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 865,
@@ -53907,7 +54244,7 @@
    "baseSpAtk": 68,
    "baseSpDef": 82,
    "baseSpeed": 65,
-   "huntLevel": 100,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -53938,7 +54275,8 @@
      "cooldownMs": 50000,
      "learnLevel": 40
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 10001,
@@ -53953,7 +54291,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 105,
    "baseSpeed": 78,
-   "huntLevel": 150,
+   "huntLevel": null,
    "evolvesToId": 0,
    "evolveLevel": 0,
    "priceNpc": 18000,
@@ -54082,7 +54420,8 @@
      "cooldownMs": 50000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 10501,
@@ -54226,7 +54565,8 @@
      "cooldownMs": 50000,
      "learnLevel": 39
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10502,
@@ -54392,7 +54732,8 @@
      "cooldownMs": 40000,
      "learnLevel": 76
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10503,
@@ -54518,7 +54859,8 @@
      "cooldownMs": 22000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10504,
@@ -54689,7 +55031,8 @@
      "cooldownMs": 50000,
      "learnLevel": 32
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10505,
@@ -54878,7 +55221,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10506,
@@ -55084,7 +55428,8 @@
      "cooldownMs": 15000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10507,
@@ -55232,7 +55577,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10508,
@@ -55376,7 +55722,8 @@
      "cooldownMs": 60000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10509,
@@ -55528,7 +55875,8 @@
      "cooldownMs": 22000,
      "learnLevel": 51
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10510,
@@ -55656,7 +56004,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10511,
@@ -55801,7 +56150,8 @@
      "cooldownMs": 50000,
      "learnLevel": 67
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10512,
@@ -56006,7 +56356,8 @@
      "cooldownMs": 18000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10513,
@@ -56211,7 +56562,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10514,
@@ -56422,7 +56774,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10515,
@@ -56619,7 +56972,8 @@
      "cooldownMs": 40000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10516,
@@ -56716,7 +57070,8 @@
      "cooldownMs": 20000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10517,
@@ -56876,7 +57231,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10518,
@@ -57044,7 +57400,8 @@
      "cooldownMs": 20000,
      "learnLevel": 28
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10519,
@@ -57193,7 +57550,8 @@
      "cooldownMs": 40000,
      "learnLevel": 54
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10520,
@@ -57402,7 +57760,8 @@
      "cooldownMs": 50000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10521,
@@ -57606,7 +57965,8 @@
      "cooldownMs": 40000,
      "learnLevel": 62
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10522,
@@ -57772,7 +58132,8 @@
      "cooldownMs": 15000,
      "learnLevel": 61
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10523,
@@ -57929,7 +58290,8 @@
      "cooldownMs": 15000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10524,
@@ -58094,7 +58456,8 @@
      "cooldownMs": 15000,
      "learnLevel": 58
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10525,
@@ -58268,7 +58631,8 @@
      "cooldownMs": 22000,
      "learnLevel": 48
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10526,
@@ -58410,7 +58774,8 @@
      "cooldownMs": 20000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10527,
@@ -58513,7 +58878,8 @@
      "cooldownMs": 22000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10528,
@@ -58697,7 +59063,8 @@
      "cooldownMs": 22000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10529,
@@ -58841,7 +59208,8 @@
      "cooldownMs": 22000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10530,
@@ -58969,7 +59337,8 @@
      "cooldownMs": 15000,
      "learnLevel": 33
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10531,
@@ -59157,7 +59526,8 @@
      "cooldownMs": 50000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10532,
@@ -59309,7 +59679,8 @@
      "cooldownMs": 40000,
      "learnLevel": 55
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10533,
@@ -59463,7 +59834,8 @@
      "cooldownMs": 50000,
      "learnLevel": 67
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10534,
@@ -59667,7 +60039,8 @@
      "cooldownMs": 40000,
      "learnLevel": 46
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10535,
@@ -59819,7 +60192,8 @@
      "cooldownMs": 22000,
      "learnLevel": 44
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10536,
@@ -59953,7 +60327,8 @@
      "cooldownMs": 50000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10537,
@@ -60073,7 +60448,8 @@
      "learnLevel": 1,
      "tm": "PSYCHIC"
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10538,
@@ -60225,7 +60601,8 @@
      "cooldownMs": 22000,
      "learnLevel": 57
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10539,
@@ -60393,7 +60770,8 @@
      "cooldownMs": 50000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10540,
@@ -60601,7 +60979,8 @@
      "cooldownMs": 40000,
      "learnLevel": 49
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10541,
@@ -60777,7 +61156,8 @@
      "cooldownMs": 50000,
      "learnLevel": 47
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10542,
@@ -60912,7 +61292,8 @@
      "cooldownMs": 22000,
      "learnLevel": 50
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10543,
@@ -61057,7 +61438,8 @@
      "cooldownMs": 22000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10544,
@@ -61208,7 +61590,8 @@
      "cooldownMs": 20000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10545,
@@ -61381,7 +61764,8 @@
      "cooldownMs": 22000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10546,
@@ -61550,7 +61934,8 @@
      "cooldownMs": 15000,
      "learnLevel": 22
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 10547,
@@ -61686,7 +62071,8 @@
      "cooldownMs": 20000,
      "learnLevel": 59
     }
-   ]
+   ],
+   "area": "outland"
   },
   {
    "pokeId": 14009,
@@ -61701,7 +62087,7 @@
    "baseSpAtk": 135,
    "baseSpDef": 115,
    "baseSpeed": 78,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 1000000,
    "experience": 216008,
@@ -61800,7 +62186,8 @@
      "cooldownMs": 40000,
      "learnLevel": 60
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14065,
@@ -61815,7 +62202,7 @@
    "baseSpAtk": 175,
    "baseSpDef": 95,
    "baseSpeed": 150,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 1000000,
    "experience": 216008,
@@ -61874,7 +62261,8 @@
      "cooldownMs": 50000,
      "learnLevel": 43
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14282,
@@ -61890,7 +62278,7 @@
    "baseSpAtk": 165,
    "baseSpDef": 135,
    "baseSpeed": 100,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -62013,7 +62401,8 @@
      "cooldownMs": 40000,
      "learnLevel": 53
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14302,
@@ -62029,7 +62418,7 @@
    "baseSpAtk": 85,
    "baseSpDef": 115,
    "baseSpeed": 20,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -62167,7 +62556,8 @@
      "cooldownMs": 40000,
      "learnLevel": 41
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14334,
@@ -62183,7 +62573,7 @@
    "baseSpAtk": 110,
    "baseSpDef": 105,
    "baseSpeed": 80,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 1000000,
    "experience": 216008,
@@ -62298,7 +62688,8 @@
      "cooldownMs": 40000,
      "learnLevel": 52
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14351,
@@ -62313,7 +62704,7 @@
    "baseSpAtk": 70,
    "baseSpDef": 70,
    "baseSpeed": 70,
-   "huntLevel": 100,
+   "huntLevel": null,
    "priceNpc": 120000,
    "sellValue": 18000,
    "experience": 6008,
@@ -62412,7 +62803,8 @@
      "cooldownMs": 40000,
      "learnLevel": 45
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 14448,
@@ -62428,7 +62820,7 @@
    "baseSpAtk": 140,
    "baseSpDef": 70,
    "baseSpeed": 112,
-   "huntLevel": 600,
+   "huntLevel": null,
    "priceNpc": 50000000,
    "sellValue": 0,
    "experience": 216008,
@@ -62541,7 +62933,8 @@
      "cooldownMs": 15000,
      "learnLevel": 29
     }
-   ]
+   ],
+   "area": null
   },
   {
    "pokeId": 50001,

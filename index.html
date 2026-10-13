@@ -901,17 +901,18 @@
         return '';
     }
 
+    let allCreatures = [];
     let creaturesList = [];
 
     async function init() {
         const statusText = document.getElementById('statusText');
         if (window.CREATURES_DATA && window.CREATURES_DATA.creatures) {
-            creaturesList = window.CREATURES_DATA.creatures;
+            allCreatures = window.CREATURES_DATA.creatures;
         } else {
             try {
                 const res = await fetch('creatures.json');
                 const json = await res.json();
-                creaturesList = json.creatures || json;
+                allCreatures = json.creatures || json;
             } catch (err) {
                 statusText.innerText = 'Erro ao ler dados';
                 statusText.style.color = '#f87171';
@@ -919,8 +920,8 @@
             }
         }
 
-        creaturesList = creaturesList.filter(c => c && c.name && c.huntLevel);
-        statusText.innerText = `${creaturesList.length} Pokémons carregados`;
+        creaturesList = allCreatures.filter(c => c && c.name && c.huntLevel);
+        statusText.innerText = `${allCreatures.length} Pokémons (${creaturesList.length} caçáveis) carregados`;
 
         // Preenche com exemplo Vileplume nível 138 e calcula
         document.getElementById('pokemonName').value = 'Vileplume';
@@ -939,7 +940,7 @@
             document.getElementById('activePokeBanner').style.display = 'none';
             return;
         }
-        const matches = creaturesList.filter(c => c.name.toLowerCase().includes(val)).slice(0, 6);
+        const matches = allCreatures.filter(c => c.name.toLowerCase().includes(val)).slice(0, 6);
         if (matches.length === 0) {
             sugBox.innerHTML = '<span style="font-size:12px; color:var(--text-dim)">Nenhum encontrado</span>';
             return;
@@ -1059,7 +1060,7 @@
         const myPokeName = inputName.value.trim().toLowerCase();
         let myPoke = null;
         if (myPokeName) {
-            myPoke = creaturesList.find(c => c.name.toLowerCase() === myPokeName);
+            myPoke = allCreatures.find(c => c.name.toLowerCase() === myPokeName);
             if (!myPoke) {
                 alertBox.innerText = `Pokémon "${inputName.value}" não encontrado.`;
                 alertBox.style.display = 'block';
@@ -1393,7 +1394,7 @@
         }
 
         const myPokeVal = document.getElementById('pokemonName').value.trim();
-        const myPoke = creaturesList.find(c => c.name.toLowerCase() === myPokeVal.toLowerCase());
+        const myPoke = allCreatures.find(c => c.name.toLowerCase() === myPokeVal.toLowerCase());
 
         list.forEach((r, idx) => {
             const tr = document.createElement('tr');
